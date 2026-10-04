@@ -79,21 +79,65 @@
             font-weight: 500;
         }
 
+        /* 重新设计的全新高定 CSS 徽章组样式 */
         .badges-bar {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 8px;
-            margin-top: 18px;
+            gap: 10px;
+            margin-top: 20px;
         }
 
-        .badges-bar img {
-            height: 24px;
-            border-radius: 6px;
-            transition: transform 0.2s ease;
+        .custom-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            border-radius: 99px;
+            font-size: 12.5px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
         }
-        .badges-bar img:hover {
+
+        .custom-badge svg {
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+
+        /* 徽章 1：日期信任标签 */
+        .badge-date {
+            background: #0f172a;
+            color: #38bdf8;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+        .badge-date .dot {
+            width: 6px;
+            height: 6px;
+            background: #38bdf8;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #38bdf8;
+        }
+
+        /* 徽章 2：电报社群标签 */
+        .badge-tg {
+            background: #f0f9ff;
+            color: #0284c7;
+            border: 1px solid #bae6fd;
+        }
+
+        /* 徽章 3：每日更新标签 */
+        .badge-green {
+            background: #ecfdf5;
+            color: #059669;
+            border: 1px solid #a7f3d0;
+        }
+
+        .custom-badge:hover {
             transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(2, 132, 199, 0.12);
         }
 
         /* 紧凑且高级的导航传送门卡片 */
@@ -383,14 +427,22 @@
         <h1>苹果ID共享与小火箭免费下载</h1>
         <p>美区 Apple ID 账号密码实时更新库 ｜ 免费 Shadowrocket 账号共享服务中心</p>
         
+        <!-- 优化后高定美观的现代徽章栏 -->
         <div class="badges-bar">
-            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/苹果ID共享-实时在线-0284c7?style=flat-square" alt="苹果ID共享"></a>
-            <a href="https://t.me/kjdidcom" target="_blank"><img src="https://img.shields.io/badge/电报社群-小火箭防失联-475569?style=flat-square&logo=telegram&logoColor=white" alt="小火箭免费下载"></a>
-            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/美区AppleID-每日更新-10b981?style=flat-square" alt="美区Apple ID"></a>
+            <a href="https://kjdid.com/" target="_blank" class="custom-badge badge-date">
+                <span class="dot"></span> 2026-10-05 实时更新
+            </a>
+            <a href="https://t.me/kjdidcom" target="_blank" class="custom-badge badge-tg">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54-1.44.53-.47-.02-1.37-.26-2.03-.48-.82-.27-1.48-.42-1.42-.89.03-.25.38-.51 1.05-.78 4.11-1.79 6.85-2.97 8.22-3.53 3.91-1.63 4.72-1.91 5.25-1.92.12 0 .38.03.55.17.14.12.18.28.2.45-.02.07-.02.13-.05.28z"/></svg>
+                电报社群防失联
+            </a>
+            <a href="https://kjdid.com/" target="_blank" class="custom-badge badge-green">
+                ✨ 美区AppleID每日更新
+            </a>
         </div>
     </header>
 
-    <!-- 紧凑醒目的导航传送门（已上移） -->
+    <!-- 紧凑醒目的导航传送门 -->
     <div class="quick-nav-grid">
         <a href="https://kjdid.com/" target="_blank" class="quick-nav-card">
             <div class="quick-nav-info">
@@ -415,7 +467,7 @@
         </a>
     </div>
 
-    <!-- 防锁机安全提醒（已下移） -->
+    <!-- 防锁机安全提醒 -->
     <div class="frost-notice">
         <b>⚠ 【苹果ID共享】防锁机安全规范指南</b>
         <ul>
