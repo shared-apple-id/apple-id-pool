@@ -7,19 +7,19 @@
     <title>苹果ID共享_免费Apple ID池_小火箭免费下载_美区Shadowrocket账号密码实时更新_科技岛</title>
     <meta name="description" content="长期免费提供iOS美区Apple ID共享账号、Shadowrocket小火箭免费下载及美区苹果账号密码实时更新。汇聚海量海外苹果ID、小火箭账号共享资源，提供安全防锁机登录教程与极速一键复制节点。">
     <meta name="keywords" content="苹果ID共享,免费Apple ID,小火箭免费下载,Shadowrocket账号,美区苹果账号,苹果账号共享,小火箭账号密码,iOS美区ID,美区小火箭,苹果商店账号共享,Shadowrocket共享,科技岛">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --card-border: #e2e8f0;
+            --bg-gradient: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+            --card-bg: rgba(255, 255, 255, 0.85);
+            --card-border: rgba(226, 232, 240, 0.8);
             --card-border-hover: #0284c7;
-            --text-main: #0f172a;
-            --text-sub: #64748b;
-            --frost-blue: #0284c7;
-            --frost-blue-light: #f0f9ff;
-            --frost-green: #10b981;
-            --frost-amber: #f59e0b;
+            --text-main: #090d16;
+            --text-sub: #475569;
+            --accent-blue: #0284c7;
+            --accent-blue-light: #eff6ff;
+            --accent-green: #10b981;
+            --accent-amber: #f59e0b;
         }
 
         * {
@@ -29,15 +29,12 @@
         }
 
         body {
-            font-family: 'Noto Sans SC', 'Inter', sans-serif;
-            background-color: var(--bg-color);
+            font-family: 'Noto Sans SC', 'Plus Jakarta Sans', sans-serif;
+            background: var(--bg-gradient);
             color: var(--text-main);
             min-height: 100vh;
-            padding: 50px 16px;
+            padding: 40px 16px;
             -webkit-font-smoothing: antialiased;
-            background-image: 
-                radial-gradient(at 0% 0%, rgba(2, 132, 199, 0.03) 0px, transparent 50%),
-                radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.02) 0px, transparent 50%);
         }
 
         .wrapper {
@@ -45,14 +42,17 @@
             margin: 0 auto;
         }
 
+        /* 顶部 Header 升级 */
         header {
             background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             border: 1px solid var(--card-border);
-            border-radius: 24px;
-            padding: 44px 28px;
+            border-radius: 28px;
+            padding: 40px 24px;
             text-align: center;
-            box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.05);
-            margin-bottom: 28px;
+            box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.07);
+            margin-bottom: 20px;
             position: relative;
             overflow: hidden;
         }
@@ -61,20 +61,20 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
-            height: 4px;
+            height: 5px;
             background: linear-gradient(90deg, #0284c7, #38bdf8, #10b981);
         }
 
         header h1 {
-            font-size: 28px;
+            font-size: 26px;
             font-weight: 900;
             color: var(--text-main);
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             letter-spacing: -0.5px;
         }
 
         header p {
-            font-size: 14.5px;
+            font-size: 14px;
             color: var(--text-sub);
             font-weight: 500;
         }
@@ -83,12 +83,12 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 10px;
-            margin-top: 22px;
+            gap: 8px;
+            margin-top: 18px;
         }
 
         .badges-bar img {
-            height: 25px;
+            height: 24px;
             border-radius: 6px;
             transition: transform 0.2s ease;
         }
@@ -96,14 +96,15 @@
             transform: translateY(-2px);
         }
 
+        /* 防锁机警告横幅 */
         .frost-notice {
-            background: #fffbeb;
-            border: 1px solid #fef3c7;
-            border-left: 5px solid var(--frost-amber);
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+            border: 1px solid #fde68a;
+            border-left: 5px solid var(--accent-amber);
             border-radius: 16px;
-            padding: 24px;
-            margin-bottom: 28px;
-            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.04);
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 24px rgba(245, 158, 11, 0.05);
         }
 
         .frost-notice b {
@@ -111,20 +112,20 @@
             align-items: center;
             gap: 8px;
             color: #92400e;
-            font-size: 15.5px;
+            font-size: 14.5px;
             font-weight: 900;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
 
         .frost-notice ul {
-            padding-left: 20px;
+            padding-left: 18px;
             color: #78350f;
-            font-size: 14px;
-            line-height: 1.8;
+            font-size: 13px;
+            line-height: 1.6;
         }
 
         .frost-notice li {
-            margin-bottom: 6px;
+            margin-bottom: 4px;
         }
 
         .frost-notice strong {
@@ -132,10 +133,68 @@
             font-weight: 700;
         }
 
+        /* 紧凑且高级的导航传送门卡片 */
+        .quick-nav-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: 640px) {
+            .quick-nav-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .quick-nav-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--card-border);
+            border-radius: 14px;
+            padding: 12px 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.03);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .quick-nav-card:hover {
+            border-color: var(--accent-blue);
+            background: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(2, 132, 199, 0.1);
+        }
+
+        .quick-nav-info h4 {
+            font-size: 13px;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 1px;
+        }
+
+        .quick-nav-info p {
+            font-size: 11px;
+            color: var(--text-sub);
+        }
+
+        .quick-nav-action {
+            font-size: 12px;
+            font-weight: 800;
+            color: var(--accent-blue);
+            background: var(--accent-blue-light);
+            padding: 4px 8px;
+            border-radius: 6px;
+            white-space: nowrap;
+        }
+
+        /* 板块标题 */
         .section-title {
-            font-size: 18px;
+            font-size: 17px;
             font-weight: 900;
-            margin: 36px 0 16px;
+            margin: 24px 0 14px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -144,32 +203,35 @@
         }
 
         .section-title span:last-child {
-            font-size: 13px;
-            color: var(--frost-blue);
+            font-size: 12px;
+            color: var(--accent-blue);
             font-weight: 700;
-            background: var(--frost-blue-light);
-            padding: 4px 10px;
+            background: var(--accent-blue-light);
+            padding: 3px 10px;
             border-radius: 6px;
         }
 
+        /* 账号网格列表 */
         .account-grid {
             display: flex;
             flex-direction: column;
-            gap: 16px;
+            gap: 14px;
         }
 
         .account-card {
             background: var(--card-bg);
+            backdrop-filter: blur(12px);
             border: 1px solid var(--card-border);
-            border-radius: 18px;
-            padding: 22px;
-            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.02);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 6px 20px rgba(15, 23, 42, 0.03);
             transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .account-card:hover {
-            border-color: var(--frost-blue);
-            box-shadow: 0 8px 30px rgba(2, 132, 199, 0.08);
+            border-color: var(--accent-blue);
+            background: #ffffff;
+            box-shadow: 0 12px 32px rgba(2, 132, 199, 0.08);
             transform: translateY(-2px);
         }
 
@@ -177,62 +239,62 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 14px;
+            margin-bottom: 12px;
         }
 
         .region-tag {
-            font-size: 13px;
+            font-size: 12.5px;
             font-weight: 800;
-            padding: 5px 12px;
-            border-radius: 8px;
+            padding: 4px 10px;
+            border-radius: 7px;
             color: #0369a1;
-            background: var(--frost-blue-light);
-            letter-spacing: 0.3px;
+            background: var(--accent-blue-light);
+            letter-spacing: 0.2px;
         }
 
         .status-badge {
-            font-size: 13px;
-            color: var(--frost-green);
+            font-size: 12px;
+            color: var(--accent-green);
             font-weight: 700;
             display: flex;
             align-items: center;
             gap: 6px;
             background: #ecfdf5;
-            padding: 4px 10px;
+            padding: 3px 9px;
             border-radius: 6px;
         }
 
         .status-badge::before {
             content: '';
             display: inline-block;
-            width: 7px;
-            height: 7px;
-            background: var(--frost-green);
+            width: 6px;
+            height: 6px;
+            background: var(--accent-green);
             border-radius: 50%;
-            box-shadow: 0 0 8px var(--frost-green);
+            box-shadow: 0 0 8px var(--accent-green);
         }
 
         .credential-box {
             background: #f8fafc;
             border: 1px solid #f1f5f9;
-            border-radius: 14px;
-            padding: 16px;
+            border-radius: 12px;
+            padding: 14px;
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
         }
 
         .credential-item {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 12px;
+            gap: 10px;
         }
 
         .credential-item span {
-            font-size: 13px;
+            font-size: 12.5px;
             color: var(--text-sub);
-            width: 42px;
+            width: 38px;
             flex-shrink: 0;
             font-weight: 800;
         }
@@ -240,8 +302,8 @@
         .credential-item code {
             font-family: 'JetBrains Mono', monospace;
             background: transparent;
-            color: #0f172a;
-            font-size: 14px;
+            color: var(--text-main);
+            font-size: 13.5px;
             font-weight: 600;
             flex-grow: 1;
             overflow: hidden;
@@ -254,77 +316,35 @@
             background: #e0f2fe;
             border: 1px solid #bae6fd;
             color: #0369a1;
-            font-size: 12.5px;
+            font-size: 12px;
             font-weight: 800;
-            padding: 7px 16px;
-            border-radius: 8px;
+            padding: 6px 14px;
+            border-radius: 7px;
             cursor: pointer;
             transition: all 0.2s ease;
             flex-shrink: 0;
         }
 
         .copy-btn:hover {
-            background: #0284c7;
+            background: var(--accent-blue);
             color: #ffffff;
-            border-color: #0284c7;
-            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2);
+            border-color: var(--accent-blue);
+            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
         }
 
         .copy-btn:active {
-            transform: scale(0.96);
+            transform: scale(0.95);
         }
 
-        .nav-card-container {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 18px;
-            overflow: hidden;
-            margin: 36px 0 24px;
-            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.02);
-        }
-
-        .nav-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 14px;
-        }
-
-        .nav-table th, .nav-table td {
-            padding: 16px 20px;
-            text-align: left;
-            border-bottom: 1px solid #f1f5f9;
-        }
-
-        .nav-table th {
-            background: #f8fafc;
-            color: var(--text-main);
-            font-weight: 900;
-            font-size: 13.5px;
-        }
-
-        .nav-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .nav-table a {
-            color: var(--frost-blue);
-            font-weight: 700;
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
-        .nav-table a:hover {
-            text-decoration: underline;
-            opacity: 0.8;
-        }
-
-        /* SEO 底部隐藏/合规长尾关键词补充，增强搜索引擎抓取矩阵 */
+        /* SEO 底部关键词矩阵 */
         .seo-keywords-footer {
-            margin-top: 40px;
-            padding: 24px;
-            background: #ffffff;
+            margin-top: 32px;
+            padding: 22px;
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
             border: 1px solid var(--card-border);
             border-radius: 18px;
-            font-size: 12.5px;
+            font-size: 12px;
             color: #94a3b8;
             line-height: 1.8;
             text-align: justify;
@@ -333,18 +353,19 @@
             color: #64748b;
         }
 
+        /* 复制成功轻提示 (Toast) */
         #toast {
             position: fixed;
-            bottom: 35px;
+            bottom: 30px;
             left: 50%;
-            transform: translateX(-50%) translateY(100px);
+            transform: translateX(-50%) translateY(80px);
             background: #0f172a;
             color: #ffffff;
-            padding: 12px 28px;
-            border-radius: 12px;
-            font-size: 14px;
+            padding: 10px 24px;
+            border-radius: 10px;
+            font-size: 13.5px;
             font-weight: 700;
-            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.25);
+            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.25);
             transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             z-index: 9999;
             pointer-events: none;
@@ -357,6 +378,7 @@
 <body>
 
 <div class="wrapper">
+    <!-- 头部信息 -->
     <header>
         <h1>苹果ID共享与小火箭免费下载</h1>
         <p>美区 Apple ID 账号密码实时更新库 ｜ 免费 Shadowrocket 账号共享服务中心</p>
@@ -368,6 +390,7 @@
         </div>
     </header>
 
+    <!-- 顶栏安全提醒 -->
     <div class="frost-notice">
         <b>⚠ 【苹果ID共享】防锁机安全规范指南</b>
         <ul>
@@ -377,6 +400,32 @@
         </ul>
     </div>
 
+    <!-- 紧凑醒目的导航传送门 -->
+    <div class="quick-nav-grid">
+        <a href="https://kjdid.com/" target="_blank" class="quick-nav-card">
+            <div class="quick-nav-info">
+                <h4>🌐 科技岛主站</h4>
+                <p>获取全网最新海外ID</p>
+            </div>
+            <span class="quick-nav-action">进入 &gt;</span>
+        </a>
+        <a href="https://www.tgzh.store/tutorials.html" target="_blank" class="quick-nav-card">
+            <div class="quick-nav-info">
+                <h4>🚀 热门账号教程</h4>
+                <p>全网海外热门账号指南</p>
+            </div>
+            <span class="quick-nav-action">查看 &gt;</span>
+        </a>
+        <a href="https://t.me/kjdidcom" target="_blank" class="quick-nav-card">
+            <div class="quick-nav-info">
+                <h4>📢 官方电报群</h4>
+                <p>防失联实时同步群</p>
+            </div>
+            <span class="quick-nav-action">加入 &gt;</span>
+        </a>
+    </div>
+
+    <!-- 共享账号区域 -->
     <div class="section-title">
         <span>美区 Apple ID 共享账号实时池</span>
         <span>一键复制密码</span>
@@ -443,41 +492,12 @@
             <div class="card-header"><span class="region-tag">海外苹果账号共享 #8</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
                 <div class="credential-item"><span>账号</span><code id="acc8">us_game_store_08@outlook.com</code><button class="copy-btn" onclick="copyText('acc8', '账号 8')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd8">UsGame666*</code><button class="copy-btn" onclick="copyText('pwd8', '密码 8')">复制密码</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd8">UsGame666*</code><button class="copy-btn" onclick="copyText('acc8', '密码 8')">复制密码</button></div>
             </div>
         </div>
     </div>
 
-    <div class="section-title" style="margin-top: 40px;">
-        <span>小火箭与苹果ID导航传送门</span>
-    </div>
-
-    <div class="nav-card-container">
-        <table class="nav-table">
-            <tr>
-                <th>导航分类</th>
-                <th>服务说明与功能介绍</th>
-                <th>直达入口</th>
-            </tr>
-            <tr>
-                <td><strong>🌐 科技岛主站</strong></td>
-                <td>实时获取全网最新美区 Apple ID 与海外苹果账号共享资源</td>
-                <td><a href="https://kjdid.com/" target="_blank">进入主站 &gt;</a></td>
-            </tr>
-            <tr>
-                <td><strong>🚀 小火箭专区</strong></td>
-                <td>Shadowrocket 免费下载安装教程与网络配置指南</td>
-                <td><a href="https://kjdid.com/" target="_blank">查看教程 &gt;</a></td>
-            </tr>
-            <tr>
-                <td><strong>📢 官方电报群</strong></td>
-                <td>加入电报社群获取小火箭防失联公告与账号密码实时同步</td>
-                <td><a href="https://t.me/kjdidcom" target="_blank">加入社群 &gt;</a></td>
-            </tr>
-        </table>
-    </div>
-
-    <!-- SEO 底部关键词长尾矩阵区 -->
+    <!-- SEO 底部关键词矩阵 -->
     <div class="seo-keywords-footer">
         <strong>关于本站：</strong> 
         本页面长期为您提供高质量的<strong>苹果ID共享</strong>与<strong>小火箭免费下载</strong>服务。如果您正在寻找稳定、安全、可用的<strong>美区Apple ID</strong>账号密码，本站的<strong>Shadowrocket账号</strong>池为您提供实时更新支持。涵盖iOS美区账号共享、小火箭账号密码、美区苹果商店独占软件下载及小白防锁机教程。更多免费节点与苹果账号资源，欢迎关注科技岛官方主站与电报社区！
