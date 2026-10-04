@@ -7,21 +7,20 @@
     <title>苹果ID共享与小火箭免费下载 - 美区Shadowrocket账号密码实时更新_免费Apple ID池</title>
     <meta name="description" content="长期稳定免费提供iOS美区Apple ID共享账号、Shadowrocket小火箭免费下载及账号密码实时更新服务。汇聚海量美区苹果账号共享资源，提供安全防锁机登录教程与一键复制节点导航。">
     <meta name="keywords" content="苹果ID共享,免费Apple ID,小火箭免费下载,Shadowrocket账号,美区苹果账号,苹果账号共享,小火箭账号密码,iOS美区ID,科技岛">
-    <!-- 引入高颜值现代艺术字体与中文专属字体 -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <!-- 引入高颜值中文字体与等宽代码字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #060814;
-            --card-bg: rgba(18, 22, 44, 0.65);
-            --card-border: rgba(139, 233, 253, 0.2);
-            --card-border-hover: rgba(255, 121, 198, 0.6);
-            --text-main: #f0f4f8;
-            --text-sub: #94a3b8;
-            --aurora-cyan: #22d3ee;
-            --aurora-purple: #c084fc;
-            --aurora-pink: #f472b6;
-            --aurora-green: #34d399;
-            --aurora-amber: #fbbf24;
+            --bg-color: #f1f5f9;
+            --card-bg: #ffffff;
+            --card-border: #cbd5e1;
+            --card-border-hover: #0284c7;
+            --text-main: #0f172a;
+            --text-sub: #475569;
+            --frost-blue: #0284c7;
+            --frost-blue-light: #e0f2fe;
+            --frost-green: #16a34a;
+            --frost-amber: #d97706;
         }
 
         * {
@@ -31,17 +30,11 @@
         }
 
         body {
-            font-family: 'Noto Sans SC', 'Outfit', sans-serif;
+            font-family: 'Noto Sans SC', 'Inter', sans-serif;
             background-color: var(--bg-color);
-            background-image: 
-                radial-gradient(circle at 10% 20%, rgba(34, 211, 238, 0.15) 0%, transparent 40%),
-                radial-gradient(circle at 90% 80%, rgba(192, 132, 252, 0.15) 0%, transparent 40%),
-                radial-gradient(circle at 50% 50%, rgba(244, 114, 182, 0.1) 0%, transparent 50%);
             color: var(--text-main);
             min-height: 100vh;
             padding: 40px 16px;
-            background-attachment: fixed;
-            overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
         }
 
@@ -50,41 +43,23 @@
             margin: 0 auto;
         }
 
-        /* 顶部极光毛玻璃卡片 */
+        /* 顶部门户卡片 */
         header {
             background: var(--card-bg);
             border: 1px solid var(--card-border);
-            border-radius: 24px;
-            padding: 38px 24px;
+            border-radius: 20px;
+            padding: 36px 24px;
             text-align: center;
-            backdrop-filter: blur(30px);
-            -webkit-backdrop-filter: blur(30px);
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(139, 233, 253, 0.05);
-            margin-bottom: 28px;
-            position: relative;
-            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+            margin-bottom: 24px;
         }
 
-        header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--aurora-cyan), var(--aurora-purple), var(--aurora-pink));
-        }
-
-        /* 核心大标题放大 */
         header h1 {
             font-size: 28px;
             font-weight: 900;
+            color: var(--text-main);
+            margin-bottom: 10px;
             letter-spacing: -0.5px;
-            background: linear-gradient(135deg, #ffffff 30%, var(--aurora-cyan) 70%, var(--aurora-pink));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 12px;
-            line-height: 1.35;
         }
 
         header p {
@@ -98,63 +73,60 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 10px;
-            margin-top: 20px;
+            margin-top: 18px;
         }
 
         .badges-bar img {
             height: 24px;
             border-radius: 6px;
-            filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.3));
         }
 
-        /* 极光警示卡片（字体放大加粗） */
-        .aurora-notice {
-            background: rgba(251, 191, 36, 0.06);
-            border: 1px solid rgba(251, 191, 36, 0.3);
-            border-left: 5px solid var(--aurora-amber);
-            border-radius: 20px;
-            padding: 24px;
-            margin-bottom: 28px;
-            backdrop-filter: blur(20px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        /* 护眼安全警示面板 */
+        .frost-notice {
+            background: #fffbeb;
+            border: 1px solid #fde68a;
+            border-left: 5px solid var(--frost-amber);
+            border-radius: 16px;
+            padding: 22px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 15px rgba(217, 119, 6, 0.05);
         }
 
-        .aurora-notice b {
+        .frost-notice b {
             display: flex;
             align-items: center;
             gap: 8px;
-            color: var(--aurora-amber);
-            font-size: 16px; /* 标题放大 */
+            color: #b45309;
+            font-size: 16px;
             font-weight: 900;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
         }
 
-        .aurora-notice ul {
+        .frost-notice ul {
             padding-left: 20px;
-            color: #cbd5e1;
+            color: #78350f;
             font-size: 14px;
             line-height: 1.7;
         }
 
-        .aurora-notice li {
+        .frost-notice li {
             margin-bottom: 6px;
         }
 
-        .aurora-notice strong {
-            color: #ffffff;
+        .frost-notice strong {
+            color: #451a03;
             font-weight: 700;
         }
 
-        /* 模块标题（强化放大） */
+        /* 模块标题 */
         .section-title {
             font-size: 18px;
             font-weight: 900;
-            margin: 36px 0 16px;
+            margin: 32px 0 14px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            color: var(--aurora-cyan);
-            letter-spacing: -0.3px;
+            color: var(--text-main);
         }
 
         .section-title span:last-child {
@@ -166,48 +138,43 @@
         .account-grid {
             display: flex;
             flex-direction: column;
-            gap: 18px;
+            gap: 16px;
         }
 
-        /* 独立账号极光卡片 */
+        /* 独立账号冰川卡片 */
         .account-card {
             background: var(--card-bg);
             border: 1px solid var(--card-border);
-            border-radius: 20px;
-            padding: 22px;
-            backdrop-filter: blur(25px);
-            -webkit-backdrop-filter: blur(25px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-            transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
-            position: relative;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(15, 23, 42, 0.03);
+            transition: all 0.2s ease;
         }
 
         .account-card:hover {
-            border-color: var(--card-border-hover);
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(192, 132, 252, 0.2), 0 10px 30px rgba(0, 0, 0, 0.5);
+            border-color: var(--frost-blue);
+            box-shadow: 0 6px 20px rgba(2, 132, 199, 0.08);
         }
 
         .card-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 14px;
+            margin-bottom: 12px;
         }
 
         .region-tag {
-            font-size: 13px; /* 标签字体加大 */
+            font-size: 13px;
             font-weight: 800;
-            padding: 5px 14px;
-            border-radius: 12px;
-            color: #060814;
-            background: linear-gradient(135deg, var(--aurora-cyan), var(--aurora-purple));
-            box-shadow: 0 0 10px rgba(34, 211, 238, 0.3);
+            padding: 4px 12px;
+            border-radius: 8px;
+            color: #0369a1;
+            background: var(--frost-blue-light);
         }
 
         .status-badge {
             font-size: 13px;
-            color: var(--aurora-green);
+            color: var(--frost-green);
             font-weight: 700;
             display: flex;
             align-items: center;
@@ -219,16 +186,15 @@
             display: inline-block;
             width: 7px;
             height: 7px;
-            background: var(--aurora-green);
+            background: var(--frost-green);
             border-radius: 50%;
-            box-shadow: 0 0 8px var(--aurora-green);
         }
 
-        /* 账号密码终端框 */
+        /* 账号密码信息框 */
         .credential-box {
-            background: rgba(3, 4, 10, 0.65);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 14px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
             padding: 14px;
             display: flex;
             flex-direction: column;
@@ -253,8 +219,8 @@
         .credential-item code {
             font-family: 'JetBrains Mono', monospace;
             background: transparent;
-            color: var(--aurora-cyan);
-            font-size: 14px; /* 账号密码字体放大清晰 */
+            color: #0f172a;
+            font-size: 14px;
             font-weight: 600;
             flex-grow: 1;
             overflow: hidden;
@@ -263,11 +229,11 @@
             user-select: all;
         }
 
-        /* 复制按钮放大 */
+        /* 复制按钮 */
         .copy-btn {
-            background: rgba(192, 132, 252, 0.15);
-            border: 1px solid rgba(192, 132, 252, 0.5);
-            color: var(--aurora-purple);
+            background: #e0f2fe;
+            border: 1px solid #bae6fd;
+            color: #0369a1;
             font-size: 12.5px;
             font-weight: 800;
             padding: 7px 16px;
@@ -278,10 +244,9 @@
         }
 
         .copy-btn:hover {
-            background: var(--aurora-pink);
-            color: #060814;
-            border-color: var(--aurora-pink);
-            box-shadow: 0 0 15px rgba(244, 114, 182, 0.5);
+            background: #0284c7;
+            color: #ffffff;
+            border-color: #0284c7;
         }
 
         .copy-btn:active {
@@ -294,7 +259,7 @@
             margin-top: 12px;
             display: flex;
             justify-content: space-between;
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            border-top: 1px solid #f1f5f9;
             padding-top: 10px;
             font-weight: 500;
         }
@@ -303,11 +268,10 @@
         .nav-card-container {
             background: var(--card-bg);
             border: 1px solid var(--card-border);
-            border-radius: 20px;
+            border-radius: 16px;
             overflow: hidden;
-            margin: 36px 0 24px;
-            backdrop-filter: blur(25px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            margin: 32px 0 20px;
+            box-shadow: 0 4px 15px rgba(15, 23, 42, 0.03);
         }
 
         .nav-table {
@@ -317,14 +281,14 @@
         }
 
         .nav-table th, .nav-table td {
-            padding: 16px 18px;
+            padding: 15px 18px;
             text-align: left;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            border-bottom: 1px solid #f1f5f9;
         }
 
         .nav-table th {
-            background: rgba(34, 211, 238, 0.08);
-            color: var(--aurora-cyan);
+            background: #f8fafc;
+            color: var(--text-main);
             font-weight: 900;
             font-size: 13.5px;
         }
@@ -334,28 +298,27 @@
         }
 
         .nav-table a {
-            color: var(--aurora-pink);
+            color: var(--frost-blue);
             font-weight: 700;
             text-decoration: none;
-            transition: text-shadow 0.2s;
         }
         .nav-table a:hover {
-            text-shadow: 0 0 10px var(--aurora-pink);
+            text-decoration: underline;
         }
 
-        /* 极光悬浮提示框 (Toast) */
+        /* 提示框 (Toast) */
         #toast {
             position: fixed;
             bottom: 35px;
             left: 50%;
             transform: translateX(-50%) translateY(100px);
-            background: linear-gradient(135deg, var(--aurora-cyan), var(--aurora-purple));
-            color: #060814;
+            background: #0f172a;
+            color: #ffffff;
             padding: 12px 26px;
-            border-radius: 20px;
+            border-radius: 12px;
             font-size: 14px;
-            font-weight: 900;
-            box-shadow: 0 0 25px rgba(34, 211, 238, 0.6);
+            font-weight: 700;
+            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.2);
             transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             z-index: 9999;
             pointer-events: none;
@@ -367,21 +330,21 @@
         .seo-keywords-footer {
             font-size: 12.5px;
             color: var(--text-sub);
-            opacity: 0.7;
-            margin-top: 25px;
+            opacity: 0.8;
+            margin-top: 24px;
             line-height: 1.8;
             text-align: center;
-            border-top: 1px dashed rgba(255, 255, 255, 0.1);
-            padding-top: 18px;
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 16px;
         }
 
         footer {
             text-align: center;
             font-size: 12.5px;
             color: var(--text-sub);
-            padding: 25px 0 10px;
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
-            margin-top: 20px;
+            padding: 20px 0 10px;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 16px;
             line-height: 1.6;
         }
     </style>
@@ -392,18 +355,18 @@
     <!-- 顶部门户卡片 -->
     <header>
         <h1>苹果ID共享与小火箭免费下载</h1>
-        <p>✨ 梦幻极光专区 — 美区 Apple ID 与 Shadowrocket 实时资源共享池 ✨</p>
+        <p>冰川极简冷系专区 — 美区 Apple ID 与 Shadowrocket 实时资源共享池</p>
         
         <div class="badges-bar">
-            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/状态-实时在线-22d3ee?style=flat-square" alt="苹果ID共享"></a>
-            <a href="https://t.me/kjdidcom" target="_blank"><img src="https://img.shields.io/badge/电报社群-防失联-c084fc?style=flat-square&logo=telegram&logoColor=white" alt="小火箭免费下载"></a>
-            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/官方主站-kjdid.com-f472b6?style=flat-square" alt="美区Apple ID"></a>
+            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/状态-实时在线-0284c7?style=flat-square" alt="苹果ID共享"></a>
+            <a href="https://t.me/kjdidcom" target="_blank"><img src="https://img.shields.io/badge/电报社群-防失联-475569?style=flat-square&logo=telegram&logoColor=white" alt="小火箭免费下载"></a>
+            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/官方主站-kjdid.com-0f172a?style=flat-square" alt="美区Apple ID"></a>
         </div>
     </header>
 
     <!-- 安全警示卡片 -->
-    <div class="aurora-notice">
-        <b>⚠️️ 【防锁机核心安全规范】新手必看指南</b>
+    <div class="frost-notice">
+        <b>⚠ 【防锁机核心安全规范】新手必看指南</b>
         <ul>
             <li><b>绝对禁止</b>在苹果手机系统设置（iCloud）中直接登录共享的 Apple ID 账号，整机登录极易引发布局锁定！</li>
             <li>下载 Shadowrocket 等小火箭工具时，务必<b>仅在 App Store 商店内</b>独立登录账号密码。</li>
@@ -416,7 +379,7 @@
         <span>点击按钮一键复制</span>
     </div>
 
-    <!-- 8 个极光卡片账号组 -->
+    <!-- 8 个账号组 -->
     <div class="account-grid">
         <div class="account-card">
             <div class="card-header"><span class="region-tag">美区 Apple ID #1</span><span class="status-badge">在线可用</span></div>
@@ -491,11 +454,11 @@
         </div>
     </div>
 
-    <div class="section-title" style="margin-top: 40px;">
+    <div class="section-title" style="margin-top: 36px;">
         <span>核心功能导航与传送门</span>
     </div>
 
-    <!-- 导航容器卡片 -->
+    <!-- 导航卡片容器 -->
     <div class="nav-card-container">
         <table class="nav-table">
             <tr>
@@ -531,14 +494,14 @@
     </footer>
 </div>
 
-<!-- 悬浮提示框 -->
-<div id="toast">✨ 复制成功喵~</div>
+<!-- 提示框 -->
+<div id="toast">已成功复制</div>
 
 <script>
     function copyText(elementId, labelName) {
         const text = document.getElementById(elementId).innerText;
         navigator.clipboard.writeText(text).then(() => {
-            showToast(`✨ 已成功复制 ${labelName}`);
+            showToast(`已成功复制 ${labelName}`);
         }).catch(err => {
             const textarea = document.createElement("textarea");
             textarea.value = text;
@@ -546,7 +509,7 @@
             textarea.select();
             document.execCommand("copy");
             document.body.removeChild(textarea);
-            showToast(`✨ 已成功复制 ${labelName}`);
+            showToast(`已成功复制 ${labelName}`);
         });
     }
 
