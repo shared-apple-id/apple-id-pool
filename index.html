@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 保留您原本的高流量 SEO 标题与描述 -->
     <title>苹果ID共享与小火箭免费下载 - 美区/港区Shadowrocket账号密码实时更新</title>
     <meta name="description" content="长期稳定更新的 iOS 美区、港区及热门地区小火箭免费账号与共享 Apple ID 节点导航，支持 Shadowrocket 一键下载与安全教程。">
+    <meta name="keywords" content="苹果ID共享,小火箭,Shadowrocket,免费下载,账号密码,实时更新,美区Apple ID,港区苹果账号">
+    <!-- 引入谷歌精选字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --apple-bg: #f5f5f7;
-            --card-bg: #ffffff;
-            --text-main: #1d1d1f;
-            --text-sub: #6e6e73;
-            --accent-blue: #0071e3;
-            --border-color: #d2d2d7;
-            --tag-us: #0071e3;
-            --tag-hk: #ff9500;
-            --tag-jp: #ff2d55;
-            --tag-other: #5856d6;
+            --bg-color: #0f1016;
+            --bg-gradient: radial-gradient(circle at top right, #2d1b4e 0%, #0f1016 60%);
+            --card-bg: rgba(25, 26, 38, 0.75);
+            --card-border: rgba(255, 121, 198, 0.25);
+            --text-main: #f8f8f2;
+            --text-sub: #a6accd;
+            --accent-pink: #ff79c6;
+            --accent-cyan: #8be9fd;
+            --accent-purple: #bd93f9;
+            --success-green: #50fa7b;
         }
-        
+
         * {
             box-sizing: border-box;
             margin: 0;
@@ -26,30 +30,44 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "SF Pro SC", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            background-color: var(--apple-bg);
+            font-family: 'Noto Sans SC', sans-serif;
+            background: var(--bg-color);
+            background-image: var(--bg-gradient);
             color: var(--text-main);
-            line-height: 1.6;
-            padding: 16px;
+            min-height: 100vh;
+            padding: 20px 14px;
+            background-attachment: fixed;
         }
 
         .wrapper {
-            max-width: 760px;
+            max-width: 680px;
             margin: 0 auto;
         }
 
-        /* 头部样式 */
         header {
             text-align: center;
             padding: 30px 10px 20px;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-pink), var(--accent-cyan));
+            margin: 14px auto 0;
+            border-radius: 2px;
         }
 
         header h1 {
             font-size: 22px;
-            font-weight: 700;
-            color: var(--text-main);
+            font-weight: 900;
+            background: linear-gradient(135deg, #ff79c6 0%, #bd93f9 50%, #8be9fd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin-bottom: 8px;
-            letter-spacing: -0.5px;
+            line-height: 1.4;
         }
 
         header p {
@@ -57,106 +75,106 @@
             color: var(--text-sub);
         }
 
-        /* 徽章栏 */
         .badges-bar {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 6px;
-            margin: 15px 0 25px;
+            gap: 8px;
+            margin-top: 16px;
         }
 
         .badges-bar img {
-            height: 24px;
+            height: 22px;
+            border-radius: 4px;
         }
 
-        /* 警告横幅 */
-        .notice-box {
-            background: #fff8e6;
-            border-left: 4px solid #ff9500;
-            padding: 14px;
-            border-radius: 8px;
+        .anime-notice {
+            background: rgba(189, 147, 249, 0.08);
+            border: 1px dashed var(--accent-purple);
+            border-radius: 14px;
+            padding: 16px;
+            margin: 22px 0;
+            backdrop-filter: blur(10px);
             font-size: 13px;
-            margin-bottom: 24px;
-            color: #5c4000;
+            color: #ffb86c;
         }
 
-        .notice-box b {
-            color: #b25900;
+        .anime-notice b {
             display: block;
-            margin-bottom: 4px;
+            color: var(--accent-pink);
+            font-size: 14px;
+            margin-bottom: 6px;
         }
 
-        .notice-box ul {
+        .anime-notice ul {
             padding-left: 18px;
-            margin-top: 4px;
+            color: var(--text-sub);
+            line-height: 1.5;
         }
 
-        /* 分类标题 */
         .section-title {
-            font-size: 16px;
-            font-weight: 600;
-            margin: 24px 0 12px;
+            font-size: 15px;
+            font-weight: 700;
+            margin: 28px 0 12px;
             display: flex;
             align-items: center;
             justify-content: space-between;
+            color: var(--accent-cyan);
         }
 
-        /* 账号卡片网格 */
         .account-grid {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 14px;
         }
 
         .account-card {
             background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 16px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-            transition: transform 0.2s ease;
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 18px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
         }
 
-        .account-card:active {
-            transform: scale(0.99);
+        .account-card:hover {
+            border-color: var(--accent-pink);
+            box-shadow: 0 8px 32px rgba(255, 121, 198, 0.15);
         }
 
         .card-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
 
         .region-tag {
-            font-size: 12px;
-            font-weight: 600;
-            padding: 2px 8px;
-            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 20px;
             color: #fff;
         }
-        .tag-us { background-color: var(--tag-us); }
-        .tag-hk { background-color: var(--tag-hk); }
-        .tag-jp { background-color: var(--tag-jp); }
-        .tag-other { background-color: var(--tag-other); }
+        .tag-us { background: linear-gradient(135deg, #ff5f6d, #ffc371); }
+        .tag-hk { background: linear-gradient(135deg, #f7b733, #fc4a1a); }
+        .tag-jp { background: linear-gradient(135deg, #b224ef, #7579ff); }
 
         .status-badge {
             font-size: 12px;
-            color: #34c759;
+            color: var(--success-green);
             font-weight: 500;
         }
 
-        /* 凭据复制行 */
-        .credential-row {
+        .credential-box {
+            background: rgba(15, 16, 22, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 10px 12px;
             display: flex;
             flex-direction: column;
             gap: 8px;
-            background: #fbfbfd;
-            border: 1px solid #e5e5ea;
-            padding: 10px 12px;
-            border-radius: 8px;
-            font-size: 13px;
         }
 
         .credential-item {
@@ -166,114 +184,115 @@
         }
 
         .credential-item span {
-            color: var(--text-sub);
             font-size: 12px;
-            min-width: 40px;
+            color: var(--text-sub);
+            width: 36px;
         }
 
         .credential-item code {
-            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-            background: #ededf2;
-            padding: 3px 8px;
-            border-radius: 4px;
-            color: #000;
+            font-family: 'JetBrains Mono', monospace;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 4px 10px;
+            border-radius: 6px;
+            color: #fff;
             font-size: 13px;
             flex-grow: 1;
             margin-left: 8px;
-            user-select: all; /* 点击直接全选 */
+            user-select: all;
         }
 
         .card-footer-info {
-            font-size: 12px;
+            font-size: 11px;
             color: var(--text-sub);
-            margin-top: 8px;
+            margin-top: 10px;
             display: flex;
             justify-content: space-between;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 8px;
         }
 
-        /* 底部导航表格 */
+        .nav-table-box {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            overflow: hidden;
+            margin: 28px 0;
+            backdrop-filter: blur(12px);
+        }
+
         .nav-table {
             width: 100%;
             border-collapse: collapse;
-            background: var(--card-bg);
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid var(--border-color);
-            margin: 24px 0;
             font-size: 13px;
         }
 
         .nav-table th, .nav-table td {
-            padding: 12px;
+            padding: 12px 14px;
             text-align: left;
-            border-bottom: 1px solid #e5e5ea;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
 
         .nav-table th {
-            background-color: #f2f2f7;
-            font-weight: 600;
+            background: rgba(255, 121, 198, 0.08);
+            color: var(--accent-pink);
+            font-weight: 700;
         }
 
         .nav-table tr:last-child td {
             border-bottom: none;
         }
 
-        /* 页脚 */
+        .nav-table a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+
         footer {
             text-align: center;
             font-size: 11px;
             color: var(--text-sub);
-            padding: 30px 0;
-            border-top: 1px solid var(--border-color);
+            padding: 30px 0 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
             margin-top: 30px;
-        }
-
-        footer a, a {
-            color: var(--accent-blue);
-            text-decoration: none;
         }
     </style>
 </head>
 <body>
 
 <div class="wrapper">
-    <!-- 网站头部 -->
     <header>
-        <h1>苹果ID共享与小火箭免费下载</h1>
-        <p>美区/港区 Shadowrocket 账号密码实时更新平台</p>
+        <h1>苹果ID共享与小火箭免费下载<br><span style="font-size: 16px; font-weight: 500; color: var(--accent-cyan);">美区/港区 Shadowrocket 账号密码实时更新</span></h1>
+        <p>—— 2026 长期稳定更新的 iOS 免费账号与共享节点导航</p>
         
         <div class="badges-bar">
-            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/🔥_今日更新-2026.10.4-ff007f?style=flat-square" alt="Update"></a>
-            <a href="https://t.me/kjdidcom" target="_blank"><img src="https://img.shields.io/badge/电报群-防失联-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="TG"></a>
-            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/主站-kjdid.com-purple?style=flat-square" alt="Portal"></a>
+            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/🔥_今日更新-2026.10.4-ff79c6?style=flat-square" alt="Update"></a>
+            <a href="https://t.me/kjdidcom" target="_blank"><img src="https://img.shields.io/badge/电报群组-防失联-8be9fd?style=flat-square&logo=telegram&logoColor=white" alt="TG"></a>
+            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/官方主站-kjdid.com-bd93f9?style=flat-square" alt="Portal"></a>
         </div>
     </header>
 
-    <!-- 严正警告提示框 -->
-    <div class="notice-box">
-        <b>🛑 【新手必读】防锁机核心安全规范：</b>
+    <div class="anime-notice">
+        <b>🛑 【严正警告】防锁机核心安全规范（新手必看）</b>
         <ul>
             <li><b>绝对禁止</b>在手机系统设置（iCloud）中登录共享账号，整机登录极易引发布局锁定或锁死！</li>
             <li>下载小火箭等付费工具时，务必<b>仅在 App Store 商店内</b>登录。</li>
-            <li>下载完成后请<b>立即退出</b>共享账号，切回您自己的国内 Apple ID。</li>
+            <li>下载完成后请<b>立即退出</b>共享账号，切回您自己的国内私人 Apple ID。</li>
         </ul>
     </div>
 
-    <!-- 账号列表区域 -->
     <div class="section-title">
-        <span>🚀 实时可用共享账号池</span>
-        <span style="font-size: 12px; color: var(--text-sub);">点击账号密码可快速复制</span>
+        <span>🌸 实时可用账号演示池</span>
+        <span style="font-size: 11px; color: var(--text-sub);">点击即可一键复制</span>
     </div>
 
     <div class="account-grid">
-        
-        <!-- 账号卡片 1 (美区 - 已购小火箭) -->
         <div class="account-card">
             <div class="card-header">
-                <span class="region-tag tag-us">🇺🇸 美区 #1 · 小火箭专项</span>
-                <span class="status-badge">🟢 正常可用</span>
+                <span class="region-tag tag-us">🇺🇸 美区 #1 · 小火箭专区</span>
+                <span class="status-badge">● 正常可用</span>
             </div>
-            <div class="credential-row">
+            <div class="credential-box">
                 <div class="credential-item">
                     <span>账号</span>
                     <code>neaomitraveyx@outlook.com</code>
@@ -289,13 +308,12 @@
             </div>
         </div>
 
-        <!-- 账号卡片 2 (港区) -->
         <div class="account-card">
             <div class="card-header">
                 <span class="region-tag tag-hk">🇭🇰 港区 #2 · 精品应用区</span>
-                <span class="status-badge">🟢 正常可用</span>
+                <span class="status-badge">● 正常可用</span>
             </div>
-            <div class="credential-row">
+            <div class="credential-box">
                 <div class="credential-item">
                     <span>账号</span>
                     <code>hk_appstore_user02@outlook.com</code>
@@ -306,18 +324,17 @@
                 </div>
             </div>
             <div class="card-footer-info">
-                <span>备注：港区特有流媒体与应用下载</span>
+                <span>备注：港区流媒体与全能应用下载</span>
                 <span>权重：高</span>
             </div>
         </div>
 
-        <!-- 账号卡片 3 (日区) -->
         <div class="account-card">
             <div class="card-header">
                 <span class="region-tag tag-jp">🇯🇵 日区 #3 · 工具与游戏</span>
-                <span class="status-badge">🟢 正常可用</span>
+                <span class="status-badge">● 正常可用</span>
             </div>
-            <div class="credential-row">
+            <div class="credential-box">
                 <div class="credential-item">
                     <span>账号</span>
                     <code>jp_shadowrocket_03@hotmail.com</code>
@@ -328,69 +345,45 @@
                 </div>
             </div>
             <div class="card-footer-info">
-                <span>备注：日区热门网络工具与二次元游戏</span>
+                <span>备注：日区热门网络工具与二次元应用</span>
                 <span>权重：中</span>
             </div>
         </div>
-
-        <!-- 账号卡片 4 (美区备用) -->
-        <div class="account-card">
-            <div class="card-header">
-                <span class="region-tag tag-us">🇺🇸 美区 #4 · 高频备用区</span>
-                <span class="status-badge">🟢 正常可用</span>
-            </div>
-            <div class="credential-row">
-                <div class="credential-item">
-                    <span>账号</span>
-                    <code>shadowrocket_user06@outlook.com</code>
-                </div>
-                <div class="credential-item">
-                    <span>密码</span>
-                    <code>Kjdid2026#</code>
-                </div>
-            </div>
-            <div class="card-footer-info">
-                <span>备注：已购小火箭，防封轮换备用</span>
-                <span>权重：高</span>
-            </div>
-        </div>
-
     </div>
 
-    <!-- 底部功能直达导航 -->
-    <div class="section-title" style="margin-top: 30px;">
-        <span>🧭 快捷通道与资源导航</span>
+    <div class="section-title" style="margin-top: 32px;">
+        <span>🧭 核心功能导航与直达通道</span>
     </div>
 
-    <table class="nav-table">
-        <tr>
-            <th>导航板块</th>
-            <th>服务说明</th>
-            <th>传送门</th>
-        </tr>
-        <tr>
-            <td><strong>🌐 科技岛主站</strong></td>
-            <td>获取全网最新、未被锁定的多国苹果共享账号</td>
-            <td><a href="https://kjdid.com/" target="_blank">点击进入</a></td>
-        </tr>
-        <tr>
-            <td><strong>📱 小火箭专区</strong></td>
-            <td>Shadowrocket 下载、配置与使用教程汇总</td>
-            <td><a href="https://kjdid.com/" target="_blank">查看教程</a></td>
-        </tr>
-        <tr>
-            <td><strong>📢 官方电报群</strong></td>
-            <td>防失联公告、最新账号实时同步与交流</td>
-            <td><a href="https://t.me/kjdidcom" target="_blank">加入电报</a></td>
-        </tr>
-    </table>
+    <div class="nav-table-box">
+        <table class="nav-table">
+            <tr>
+                <th>导航板块</th>
+                <th>功能服务简介</th>
+                <th>传送门</th>
+            </tr>
+            <tr>
+                <td><strong>🌐 科技岛主站</strong></td>
+                <td>实时更新全网最全海外苹果账号，在线一键获取</td>
+                <td><a href="https://kjdid.com/" target="_blank">点击进入</a></td>
+            </tr>
+            <tr>
+                <td><strong>📱 小火箭专区</strong></td>
+                <td>专供 Shadowrocket 等网络工具下载与配置教程</td>
+                <td><a href="https://kjdid.com/" target="_blank">查看教程</a></td>
+            </tr>
+            <tr>
+                <td><strong>📢 官方电报群</strong></td>
+                <td>防失联公告、最新可用苹果账号同步</td>
+                <td><a href="https://t.me/kjdidcom" target="_blank">加入电报</a></td>
+            </tr>
+        </table>
+    </div>
 
-    <!-- 页脚版权 -->
     <footer>
-        <p>Disclaimer: 本站仅供技术交流与开源资源聚合测试使用。所有账号搜集自公开网络，不承担因操作不当带来的设备锁机责任。</p>
+        <p>Disclaimer: 本站仅供技术交流与开源资源聚合测试使用。所有账号搜集自公开网络，不承担因操作不当带来的风险。</p>
         <p style="margin-top: 6px;">Copyright © 2026 科技岛 (kjdid.com) All Rights Reserved.</p>
     </footer>
-
 </div>
 
 </body>
