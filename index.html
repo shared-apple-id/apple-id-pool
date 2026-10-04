@@ -8,19 +8,20 @@
     <meta name="description" content="长期稳定免费提供iOS美区Apple ID共享账号、Shadowrocket小火箭免费下载及账号密码实时更新服务。汇聚海量美区苹果账号共享资源，提供安全防锁机登录教程与一键复制节点导航。">
     <meta name="keywords" content="苹果ID共享,免费Apple ID,小火箭免费下载,Shadowrocket账号,美区苹果账号,苹果账号共享,小火箭账号密码,iOS美区ID,科技岛">
     <!-- 引入谷歌精选字体 -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@600;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #0f1016;
-            --bg-gradient: radial-gradient(circle at top right, #2d1b4e 0%, #0f1016 60%);
-            --card-bg: rgba(25, 26, 38, 0.75);
-            --card-border: rgba(255, 121, 198, 0.25);
+            --bg-color: #0c0d16;
+            --card-bg: rgba(22, 24, 40, 0.85);
+            --card-border: rgba(255, 121, 198, 0.3);
+            --card-border-hover: rgba(255, 121, 198, 0.8);
             --text-main: #f8f8f2;
             --text-sub: #a6accd;
-            --accent-pink: #ff79c6;
-            --accent-cyan: #8be9fd;
-            --accent-purple: #bd93f9;
+            --anime-pink: #ff79c6;
+            --anime-purple: #bd93f9;
+            --anime-cyan: #8be9fd;
             --success-green: #50fa7b;
+            --warning-orange: #ffb86c;
         }
 
         * {
@@ -31,210 +32,302 @@
 
         body {
             font-family: 'Noto Sans SC', sans-serif;
-            background: var(--bg-color);
-            background-image: var(--bg-gradient);
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(189, 147, 249, 0.15) 0%, transparent 45%),
+                radial-gradient(circle at 85% 85%, rgba(255, 121, 198, 0.15) 0%, transparent 45%);
             color: var(--text-main);
             min-height: 100vh;
-            padding: 20px 14px;
+            padding: 24px 14px;
             background-attachment: fixed;
+            overflow-x: hidden;
         }
 
         .wrapper {
-            max-width: 680px;
+            max-width: 720px;
             margin: 0 auto;
         }
 
+        /* 顶部大卡片 */
         header {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 28px 20px;
             text-align: center;
-            padding: 30px 10px 20px;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+            margin-bottom: 24px;
             position: relative;
         }
 
         header::after {
             content: '';
             display: block;
-            width: 60px;
+            width: 100px;
             height: 4px;
-            background: linear-gradient(90deg, var(--accent-pink), var(--accent-cyan));
-            margin: 14px auto 0;
+            background: linear-gradient(90deg, var(--anime-pink), var(--anime-cyan));
+            margin: 18px auto 0;
             border-radius: 2px;
+            box-shadow: 0 0 12px var(--anime-pink);
         }
 
         header h1 {
-            font-size: 21px;
+            font-size: 24px;
             font-weight: 900;
-            background: linear-gradient(135deg, #ff79c6 0%, #bd93f9 50%, #8be9fd 100%);
+            background: linear-gradient(135deg, #ffffff 0%, var(--anime-pink) 50%, var(--anime-cyan) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 8px;
-            line-height: 1.4;
+            margin-bottom: 10px;
+            line-height: 1.35;
         }
 
         header p {
             font-size: 13px;
             color: var(--text-sub);
+            font-weight: 500;
         }
 
         .badges-bar {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 8px;
-            margin-top: 16px;
+            gap: 10px;
+            margin-top: 18px;
         }
 
         .badges-bar img {
-            height: 22px;
-            border-radius: 4px;
+            height: 24px;
+            border-radius: 6px;
+            filter: drop-shadow(0 0 6px rgba(255, 121, 198, 0.3));
         }
 
+        /* 突出警告大卡片 */
         .anime-notice {
-            background: rgba(189, 147, 249, 0.08);
-            border: 1px dashed var(--accent-purple);
-            border-radius: 14px;
-            padding: 16px;
-            margin: 22px 0;
-            backdrop-filter: blur(10px);
-            font-size: 13px;
-            color: #ffb86c;
+            background: linear-gradient(135deg, rgba(255, 184, 108, 0.08), rgba(255, 121, 198, 0.08));
+            border: 1.5px solid rgba(255, 184, 108, 0.4);
+            border-radius: 20px;
+            padding: 22px;
+            margin-bottom: 28px;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
         }
 
         .anime-notice b {
-            display: block;
-            color: var(--accent-pink);
-            font-size: 14px;
-            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--warning-orange);
+            font-size: 16px; /* 字体放大 */
+            font-weight: 900;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
         }
 
         .anime-notice ul {
-            padding-left: 18px;
-            color: var(--text-sub);
-            line-height: 1.5;
+            padding-left: 20px;
+            color: #d8dee9;
+            font-size: 13.5px;
+            line-height: 1.7;
         }
 
-        .section-title {
-            font-size: 15px;
+        .anime-notice li {
+            margin-bottom: 6px;
+        }
+
+        .anime-notice strong {
+            color: var(--anime-pink);
             font-weight: 700;
-            margin: 28px 0 12px;
+        }
+
+        /* 模块大标题（带字号放大与强调） */
+        .section-title {
+            font-size: 17px;
+            font-weight: 900;
+            margin: 32px 0 16px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            color: var(--accent-cyan);
+            color: var(--anime-cyan);
+            letter-spacing: 0.5px;
+            border-left: 4px solid var(--anime-cyan);
+            padding-left: 10px;
+        }
+
+        .section-title span:last-child {
+            font-size: 12px;
+            color: var(--text-sub);
+            font-weight: 500;
         }
 
         .account-grid {
             display: flex;
             flex-direction: column;
-            gap: 14px;
+            gap: 18px;
         }
 
+        /* 独立的账号网格立体卡片 */
         .account-card {
             background: var(--card-bg);
             border: 1px solid var(--card-border);
-            border-radius: 16px;
-            padding: 18px;
-            backdrop-filter: blur(12px);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            transition: all 0.3s ease;
+            border-radius: 18px;
+            padding: 20px;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
         }
 
         .account-card:hover {
-            border-color: var(--accent-pink);
-            box-shadow: 0 8px 32px rgba(255, 121, 198, 0.15);
+            border-color: var(--card-border-hover);
+            box-shadow: 0 0 25px rgba(255, 121, 198, 0.25), 0 12px 35px rgba(0, 0, 0, 0.6);
+            transform: translateY(-3px);
         }
 
         .card-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 12px;
+            margin-bottom: 14px;
         }
 
         .region-tag {
-            font-size: 11px;
-            font-weight: 700;
-            padding: 3px 10px;
+            font-size: 13px; /* 放大标签字体 */
+            font-weight: 800;
+            padding: 4px 14px;
             border-radius: 20px;
-            color: #fff;
-            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            color: #0c0d16;
+            background: linear-gradient(135deg, var(--anime-pink), var(--anime-purple));
+            box-shadow: 0 0 12px rgba(255, 121, 198, 0.4);
+            letter-spacing: 0.5px;
         }
 
         .status-badge {
             font-size: 12px;
             color: var(--success-green);
-            font-weight: 500;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .status-badge::before {
+            content: '';
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            background: var(--success-green);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--success-green);
         }
 
         .credential-box {
-            background: rgba(15, 16, 22, 0.6);
+            background: rgba(12, 13, 22, 0.75);
             border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 10px;
-            padding: 10px 12px;
+            border-radius: 14px;
+            padding: 14px;
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 12px;
         }
 
         .credential-item {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            gap: 10px;
         }
 
         .credential-item span {
             font-size: 12px;
             color: var(--text-sub);
             width: 36px;
+            flex-shrink: 0;
+            font-weight: 800;
+            letter-spacing: 1px;
         }
 
         .credential-item code {
             font-family: 'JetBrains Mono', monospace;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            padding: 4px 10px;
-            border-radius: 6px;
-            color: #fff;
-            font-size: 13px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 7px 12px;
+            border-radius: 8px;
+            color: var(--anime-cyan);
+            font-size: 13.5px; /* 账号密码字体放大清晰可辨 */
+            font-weight: 600;
             flex-grow: 1;
-            margin-left: 8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
             user-select: all;
         }
 
-        .card-footer-info {
-            font-size: 11px;
-            color: var(--text-sub);
-            margin-top: 10px;
-            display: flex;
-            justify-content: space-between;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
-            padding-top: 8px;
+        /* 放大并更加吸睛的复制按钮 */
+        .copy-btn {
+            background: linear-gradient(135deg, rgba(255, 121, 198, 0.2), rgba(189, 147, 249, 0.3));
+            border: 1px solid rgba(255, 121, 198, 0.6);
+            color: var(--anime-pink);
+            font-size: 12px;
+            font-weight: 800;
+            padding: 7px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+            letter-spacing: 0.5px;
         }
 
-        .nav-table-box {
+        .copy-btn:hover {
+            background: var(--anime-pink);
+            color: #0c0d16;
+            box-shadow: 0 0 15px rgba(255, 121, 198, 0.7);
+        }
+
+        .copy-btn:active {
+            transform: scale(0.95);
+        }
+
+        .card-footer-info {
+            font-size: 12px;
+            color: var(--text-sub);
+            margin-top: 12px;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding-top: 10px;
+            font-weight: 500;
+        }
+
+        /* 导航表格卡片化包装 */
+        .nav-card-container {
             background: var(--card-bg);
             border: 1px solid var(--card-border);
-            border-radius: 16px;
+            border-radius: 20px;
             overflow: hidden;
-            margin: 28px 0;
-            backdrop-filter: blur(12px);
+            margin: 36px 0 24px;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
         }
 
         .nav-table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 13px;
+            font-size: 13.5px;
         }
 
         .nav-table th, .nav-table td {
-            padding: 12px 14px;
+            padding: 14px 16px;
             text-align: left;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
         }
 
         .nav-table th {
             background: rgba(255, 121, 198, 0.08);
-            color: var(--accent-pink);
-            font-weight: 700;
+            color: var(--anime-pink);
+            font-weight: 900;
+            font-size: 13px;
+            letter-spacing: 0.5px;
         }
 
         .nav-table tr:last-child td {
@@ -242,141 +335,170 @@
         }
 
         .nav-table a {
-            color: var(--accent-cyan);
+            color: var(--anime-cyan);
+            font-weight: 700;
             text-decoration: none;
+            transition: text-shadow 0.2s;
+        }
+        .nav-table a:hover {
+            text-shadow: 0 0 10px var(--anime-cyan);
         }
 
-        /* 隐藏的 SEO 极致长尾词聚合区块：对用户友好展示，对搜索引擎贡献高密度词频 */
+        /* 二次元轻奢提示框 */
+        #toast {
+            position: fixed;
+            bottom: 35px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: linear-gradient(135deg, var(--anime-pink), var(--anime-purple));
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 24px;
+            font-size: 13px;
+            font-weight: 800;
+            box-shadow: 0 0 25px rgba(255, 121, 198, 0.6);
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 9999;
+            pointer-events: none;
+            letter-spacing: 0.5px;
+        }
+        #toast.show {
+            transform: translateX(-50%) translateY(0);
+        }
+
         .seo-keywords-footer {
-            font-size: 11px;
+            font-size: 12px;
             color: var(--text-sub);
             opacity: 0.7;
-            margin-top: 20px;
+            margin-top: 25px;
             line-height: 1.8;
             text-align: center;
             border-top: 1px dashed rgba(255, 255, 255, 0.1);
-            padding-top: 15px;
+            padding-top: 18px;
         }
 
         footer {
             text-align: center;
-            font-size: 11px;
+            font-size: 12px;
             color: var(--text-sub);
-            padding: 20px 0 10px;
-            border-top: 1px solid rgba(255, 255, 255, 0.08);
-            margin-top: 15px;
+            padding: 25px 0 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            margin-top: 20px;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
 
 <div class="wrapper">
-    <!-- 主标题融入核心关键词权重 -->
+    <!-- 顶部大卡片 -->
     <header>
-        <h1>苹果ID共享与小火箭免费下载<br><span style="font-size: 16px; font-weight: 500; color: var(--accent-cyan);">美区 Apple ID 共享账号密码实时更新池</span></h1>
-        <p>—— 2026 长期稳定更新的 iOS 免费账号、Shadowrocket 节点及应用下载导航</p>
+        <h1>苹果ID共享与小火箭免费下载<br><span style="font-size: 16px; font-weight: 700; color: var(--anime-cyan);">美区 Apple ID & Shadowrocket 萌新次元专属池</span></h1>
+        <p>✨ 2026 长期稳定更新的 iOS 免费账号与极速导航站 ✨</p>
         
         <div class="badges-bar">
-            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/🔥_实时更新-2026.10-ff79c6?style=flat-square" alt="苹果ID共享"></a>
-            <a href="https://t.me/kjdidcom" target="_blank"><img src="https://img.shields.io/badge/电报群组-防失联-8be9fd?style=flat-square&logo=telegram&logoColor=white" alt="小火箭免费下载"></a>
+            <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/🌸_萌新专区-实时更新-ff79c6?style=flat-square" alt="苹果ID共享"></a>
+            <a href="https://t.me/kjdidcom" target="_blank"><img src="https://img.shields.io/badge/电报次元社-防失联-8be9fd?style=flat-square&logo=telegram&logoColor=white" alt="小火箭免费下载"></a>
             <a href="https://kjdid.com/" target="_blank"><img src="https://img.shields.io/badge/官方主站-kjdid.com-bd93f9?style=flat-square" alt="美区Apple ID"></a>
         </div>
     </header>
 
+    <!-- 注意事项醒目大卡片 -->
     <div class="anime-notice">
-        <b>🛑 【苹果ID共享防锁核心安全规范】新手必看指南</b>
+        <b>⚠️ 【防锁机核心安全规范】新手必看指南</b>
         <ul>
-            <li><b>绝对禁止</b>在苹果手机系统设置（iCloud）中直接登录共享的 Apple ID 账号，整机登录极易引发布局锁定或死机！</li>
-            <li>下载 Shadowrocket 等小火箭工具时，务必<b>仅在 App Store 商店内</b>登录共享账号密码。</li>
+            <li><b>绝对禁止</b>在苹果手机系统设置（iCloud）中直接登录共享的 Apple ID 账号，整机登录极易引发布局锁定！</li>
+            <li>下载 Shadowrocket 等小火箭工具时，务必<b>仅在 App Store 商店内</b>独立登录账号密码。</li>
             <li>下载安装完成后请<b>立即退出</b>共享账号，并切回您自己的私人国内苹果ID。</li>
         </ul>
     </div>
 
     <div class="section-title">
-        <span>🌸 实时可用美区 Apple ID 共享账号池（共 8 组）</span>
-        <span style="font-size: 11px; color: var(--text-sub);">点击即可一键复制密码</span>
+        <span>💖 实时可用美区 Apple ID 共享账号池（共 8 组）</span>
+        <span>点击按钮一键复制</span>
     </div>
 
-    <!-- 8 个美区账号卡片：均匀植入关键词 -->
+    <!-- 8 个独立卡片式账号展示 -->
     <div class="account-grid">
         <div class="account-card">
-            <div class="card-header"><span class="region-tag">🇺🇸 美区 Apple ID #1 · 小火箭专区</span><span class="status-badge">● 正常可用</span></div>
+            <div class="card-header"><span class="region-tag">🇺🇸 美区 Apple ID #1</span><span class="status-badge">● 正常可用</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code>neaomitraveyx@outlook.com</code></div>
-                <div class="credential-item"><span>密码</span><code>Qq123456@</code></div>
+                <div class="credential-item"><span>账号</span><code id="acc1">neaomitraveyx@outlook.com</code><button class="copy-btn" onclick="copyText('acc1', '账号 1')">复制账号</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd1">Qq123456@</code><button class="copy-btn" onclick="copyText('pwd1', '密码 1')">复制密码</button></div>
             </div>
             <div class="card-footer-info"><span>备注：已购 Shadowrocket，实时更新</span><span>权重：高</span></div>
         </div>
 
         <div class="account-card">
-            <div class="card-header"><span class="region-tag">🇺🇸 美区共享账号 #2 · 精品应用区</span><span class="status-badge">● 正常可用</span></div>
+            <div class="card-header"><span class="region-tag">🇺🇸 美区共享账号 #2</span><span class="status-badge">● 正常可用</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code>us_appstore_user02@outlook.com</code></div>
-                <div class="credential-item"><span>密码</span><code>Qq123456@</code></div>
+                <div class="credential-item"><span>账号</span><code id="acc2">us_appstore_user02@outlook.com</code><button class="copy-btn" onclick="copyText('acc2', '账号 2')">复制账号</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd2">Qq123456@</code><button class="copy-btn" onclick="copyText('pwd2', '密码 2')">复制密码</button></div>
             </div>
             <div class="card-footer-info"><span>备注：美区苹果账号流媒体与全能应用下载</span><span>权重：高</span></div>
         </div>
 
         <div class="account-card">
-            <div class="card-header"><span class="region-tag">🇺🇸 美区 Apple ID #3 · 工具特化</span><span class="status-badge">● 正常可用</span></div>
+            <div class="card-header"><span class="region-tag">🇺🇸 美区 Apple ID #3</span><span class="status-badge">● 正常可用</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code>us_shadowrocket_03@hotmail.com</code></div>
-                <div class="credential-item"><span>密码</span><code>Qc123456@</code></div>
+                <div class="credential-item"><span>账号</span><code id="acc3">us_shadowrocket_03@hotmail.com</code><button class="copy-btn" onclick="copyText('acc3', '账号 3')">复制账号</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd3">Qc123456@</code><button class="copy-btn" onclick="copyText('pwd3', '密码 3')">复制密码</button></div>
             </div>
             <div class="card-footer-info"><span>备注：小火箭免费下载与特色网络工具</span><span>权重：中</span></div>
         </div>
 
         <div class="account-card">
-            <div class="card-header"><span class="region-tag">🇺🇸 美区账号共享 #4 · 高频备用池</span><span class="status-badge">● 正常可用</span></div>
+            <div class="card-header"><span class="region-tag">🇺🇸 美区账号共享 #4</span><span class="status-badge">● 正常可用</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code>shadowrocket_user06@outlook.com</code></div>
-                <div class="credential-item"><span>密码</span><code>Kjdid2026#</code></div>
+                <div class="credential-item"><span>账号</span><code id="acc4">shadowrocket_user06@outlook.com</code><button class="copy-btn" onclick="copyText('acc4', '账号 4')">复制账号</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd4">Kjdid2026#</code><button class="copy-btn" onclick="copyText('pwd4', '密码 4')">复制密码</button></div>
             </div>
             <div class="card-footer-info"><span>备注：美区 ID 防封轮换账号，随时可用</span><span>权重：高</span></div>
         </div>
 
         <div class="account-card">
-            <div class="card-header"><span class="region-tag">🇺🇸 美区 Apple ID #5 · 独占应用区</span><span class="status-badge">● 正常可用</span></div>
+            <div class="card-header"><span class="region-tag">🇺🇸 美区 Apple ID #5</span><span class="status-badge">● 正常可用</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code>us_app_store_05@outlook.com</code></div>
-                <div class="credential-item"><span>密码</span><code>Us888888#</code></div>
+                <div class="credential-item"><span>账号</span><code id="acc5">us_app_store_05@outlook.com</code><button class="copy-btn" onclick="copyText('acc5', '账号 5')">复制账号</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd5">Us888888#</code><button class="copy-btn" onclick="copyText('pwd5', '密码 5')">复制密码</button></div>
             </div>
             <div class="card-footer-info"><span>备注：美服限定游戏及特色软件免费下载</span><span>权重：中</span></div>
         </div>
 
         <div class="account-card">
-            <div class="card-header"><span class="region-tag">🇺🇸 美区共享账号 #6 · 直装特化组</span><span class="status-badge">● 正常可用</span></div>
+            <div class="card-header"><span class="region-tag">🇺🇸 美区共享账号 #6</span><span class="status-badge">● 正常可用</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code>us_shadowrocket_06@gmail.com</code></div>
-                <div class="credential-item"><span>密码</span><code>Apple999!</code></div>
+                <div class="credential-item"><span>账号</span><code id="acc6">us_shadowrocket_06@gmail.com</code><button class="copy-btn" onclick="copyText('acc6', '账号 6')">复制账号</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd6">Apple999!</code><button class="copy-btn" onclick="copyText('pwd6', '密码 6')">复制密码</button></div>
             </div>
             <div class="card-footer-info"><span>备注：稳定老号，附带 Shadowrocket 授权</span><span>权重：高</span></div>
         </div>
 
         <div class="account-card">
-            <div class="card-header"><span class="region-tag">🇺🇸 美区 Apple ID #7 · 备用轮换</span><span class="status-badge">● 正常可用</span></div>
+            <div class="card-header"><span class="region-tag">🇺🇸 美区 Apple ID #7</span><span class="status-badge">● 正常可用</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code>us_backup_user07@outlook.com</code></div>
-                <div class="credential-item"><span>密码</span><code>Pass2026$</code></div>
+                <div class="credential-item"><span>账号</span><code id="acc7">us_backup_user07@outlook.com</code><button class="copy-btn" onclick="copyText('acc7', '账号 7')">复制账号</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd7">Pass2026$</code><button class="copy-btn" onclick="copyText('pwd7', '密码 7')">复制密码</button></div>
             </div>
             <div class="card-footer-info"><span>备注：高峰期分流使用，即登即退</span><span>权重：中</span></div>
         </div>
 
         <div class="account-card">
-            <div class="card-header"><span class="region-tag">🇺🇸 美区账号共享 #8 · 氪金特化组</span><span class="status-badge">● 正常可用</span></div>
+            <div class="card-header"><span class="region-tag">🇺🇸 美区账号共享 #8</span><span class="status-badge">● 正常可用</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code>us_game_store_08@outlook.com</code></div>
-                <div class="credential-item"><span>密码</span><code>UsGame666*</code></div>
+                <div class="credential-item"><span>账号</span><code id="acc8">us_game_store_08@outlook.com</code><button class="copy-btn" onclick="copyText('acc8', '账号 8')">复制账号</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd8">UsGame666*</code><button class="copy-btn" onclick="copyText('pwd8', '密码 8')">复制密码</button></div>
             </div>
             <div class="card-footer-info"><span>备注：美服独占大型手游客户端下载专用</span><span>权重：高</span></div>
         </div>
     </div>
 
-    <div class="section-title" style="margin-top: 32px;">
+    <div class="section-title" style="margin-top: 40px;">
         <span>🧭 核心功能导航与苹果ID共享直达通道</span>
     </div>
 
-    <div class="nav-table-box">
+    <!-- 导航大卡片容器 -->
+    <div class="nav-card-container">
         <table class="nav-table">
             <tr>
                 <th>导航板块</th>
@@ -386,22 +508,21 @@
             <tr>
                 <td><strong>🌐 科技岛主站</strong></td>
                 <td>实时更新全网最全海外苹果ID共享账号，在线一键获取密码</td>
-                <td><a href="https://kjdid.com/" target="_blank">点击进入</a></td>
+                <td><a href="https://kjdid.com/" target="_blank">点击进入 &gt;</a></td>
             </tr>
             <tr>
                 <td><strong>📱 小火箭专区</strong></td>
                 <td>专供 Shadowrocket 免费下载与网络工具配置图文教程</td>
-                <td><a href="https://kjdid.com/" target="_blank">查看教程</a></td>
+                <td><a href="https://kjdid.com/" target="_blank">查看教程 &gt;</a></td>
             </tr>
             <tr>
                 <td><strong>📢 官方电报群</strong></td>
                 <td>防失联公告、最新可用美区 Apple ID 账号实时同步</td>
-                <td><a href="https://t.me/kjdidcom" target="_blank">加入电报</a></td>
+                <td><a href="https://t.me/kjdidcom" target="_blank">加入电报 &gt;</a></td>
             </tr>
         </table>
     </div>
 
-    <!-- 底部增加长尾关键词矩阵，迎合搜索引擎的自然语言抓取 -->
     <div class="seo-keywords-footer">
         本站持续为您提供：<strong>苹果ID共享</strong>、<strong>免费Apple ID</strong>、<strong>小火箭免费下载</strong>、<strong>Shadowrocket账号密码</strong>、<strong>美区苹果账号</strong>等资源的实时更新服务，助您轻松畅玩 iOS 海外应用。
     </div>
@@ -411,6 +532,35 @@
         <p style="margin-top: 6px;">Copyright © 2026 科技岛 (kjdid.com) All Rights Reserved.</p>
     </footer>
 </div>
+
+<!-- 悬浮提示框 -->
+<div id="toast">✨ 复制成功喵~</div>
+
+<script>
+    function copyText(elementId, labelName) {
+        const text = document.getElementById(elementId).innerText;
+        navigator.clipboard.writeText(text).then(() => {
+            showToast(`✨ 已成功复制${labelName}`);
+        }).catch(err => {
+            const textarea = document.createElement("textarea");
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            showToast(`✨ 已成功复制${labelName}`);
+        });
+    }
+
+    function showToast(message) {
+        const toast = document.getElementById('toast');
+        toast.innerText = message;
+        toast.classList.add('show');
+        setTimeout(() => {
+            toast.classList.remove('show');
+        }, 2000);
+    }
+</script>
 
 </body>
 </html>
