@@ -1,4 +1,4 @@
-# <div align="center"> 科技岛 · Shadowrocket 共享账号 & 美区及热门地区免费 Apple ID 资源中心</div>
+# <div align="center"> Shadowrocket 共享账号 & 美区及热门地区免费 Apple ID 资源中心</div>
 
 <div align="center">
   <b>—— 2026 长期稳定更新的 iOS 美区、港区及热门地区小火箭免费账号与共享 Apple ID 节点导航</b>
