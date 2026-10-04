@@ -96,49 +96,12 @@
             transform: translateY(-2px);
         }
 
-        /* 防锁机警告横幅 */
-        .frost-notice {
-            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
-            border: 1px solid #fde68a;
-            border-left: 5px solid var(--accent-amber);
-            border-radius: 16px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 8px 24px rgba(245, 158, 11, 0.05);
-        }
-
-        .frost-notice b {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            color: #92400e;
-            font-size: 14.5px;
-            font-weight: 900;
-            margin-bottom: 8px;
-        }
-
-        .frost-notice ul {
-            padding-left: 18px;
-            color: #78350f;
-            font-size: 13px;
-            line-height: 1.6;
-        }
-
-        .frost-notice li {
-            margin-bottom: 4px;
-        }
-
-        .frost-notice strong {
-            color: #451a03;
-            font-weight: 700;
-        }
-
         /* 紧凑且高级的导航传送门卡片 */
         .quick-nav-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 10px;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
         }
 
         @media (max-width: 640px) {
@@ -188,6 +151,43 @@
             padding: 4px 8px;
             border-radius: 6px;
             white-space: nowrap;
+        }
+
+        /* 防锁机警告横幅 */
+        .frost-notice {
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+            border: 1px solid #fde68a;
+            border-left: 5px solid var(--accent-amber);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 24px rgba(245, 158, 11, 0.05);
+        }
+
+        .frost-notice b {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #92400e;
+            font-size: 14.5px;
+            font-weight: 900;
+            margin-bottom: 8px;
+        }
+
+        .frost-notice ul {
+            padding-left: 18px;
+            color: #78350f;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .frost-notice li {
+            margin-bottom: 4px;
+        }
+
+        .frost-notice strong {
+            color: #451a03;
+            font-weight: 700;
         }
 
         /* 板块标题 */
@@ -390,17 +390,7 @@
         </div>
     </header>
 
-    <!-- 顶栏安全提醒 -->
-    <div class="frost-notice">
-        <b>⚠ 【苹果ID共享】防锁机安全规范指南</b>
-        <ul>
-            <li><b>绝对禁止</b>在苹果手机系统设置（iCloud）中直接登录共享账号，整机登录极易引发布局锁定！</li>
-            <li>下载 Shadowrocket 等应用时，务必<b>仅在 App Store 商店内</b>独立输入账号密码登录。</li>
-            <li>下载安装完成后请<b>立即退出</b>共享的苹果账号，并切回您自己的私人国内 Apple ID。</li>
-        </ul>
-    </div>
-
-    <!-- 紧凑醒目的导航传送门 -->
+    <!-- 紧凑醒目的导航传送门（已上移） -->
     <div class="quick-nav-grid">
         <a href="https://kjdid.com/" target="_blank" class="quick-nav-card">
             <div class="quick-nav-info">
@@ -423,6 +413,16 @@
             </div>
             <span class="quick-nav-action">加入 &gt;</span>
         </a>
+    </div>
+
+    <!-- 防锁机安全提醒（已下移） -->
+    <div class="frost-notice">
+        <b>⚠ 【苹果ID共享】防锁机安全规范指南</b>
+        <ul>
+            <li><b>绝对禁止</b>在苹果手机系统设置（iCloud）中直接登录共享账号，整机登录极易引发布局锁定！</li>
+            <li>下载 Shadowrocket 等应用时，务必<b>仅在 App Store 商店内</b>独立输入账号密码登录。</li>
+            <li>下载安装完成后请<b>立即退出</b>共享的苹果账号，并切回您自己的私人国内 Apple ID。</li>
+        </ul>
     </div>
 
     <!-- 共享账号区域 -->
@@ -492,7 +492,7 @@
             <div class="card-header"><span class="region-tag">海外苹果账号共享 #8</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
                 <div class="credential-item"><span>账号</span><code id="acc8">us_game_store_08@outlook.com</code><button class="copy-btn" onclick="copyText('acc8', '账号 8')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd8">UsGame666*</code><button class="copy-btn" onclick="copyText('acc8', '密码 8')">复制密码</button></div>
+                <div class="credential-item"><span>密码</span><code id="pwd8">UsGame666*</code><button class="copy-btn" onclick="copyText('pwd8', '密码 8')">复制密码</button></div>
             </div>
         </div>
     </div>
