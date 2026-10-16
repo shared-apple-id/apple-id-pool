@@ -45,4 +45,4 @@
 本仓库长期为您提供高质量 **[苹果ID共享](https://kjdid.com/)** 与 **[小火箭免费下载](https://kjdid.com/)** 服务。如果您正在寻找稳定、安全、可用的 **[美区Apple ID](https://kjdid.com/)** 账号密码，本站与官方主站的 **[Shadowrocket账号](https://kjdid.com/)** 池为您提供实时更新支持。涵盖 iOS 美区账号共享、小火箭账号密码、美区苹果商店独占软件下载及小白防锁机教程。
 
 👉 **官方主站入口：** [https://kjdid.com/](https://kjdid.com/)  
-👉 **GitHub 在线渲染页面（镜像）：** [https://shared-apple-id.github.io/apple-id-pool/](https://shared-apple-id.github.io/apple-id-pool/)
+👉 **GitHub 在线页面（镜像）：** [https://shared-apple-id.github.io/apple-id-pool/](https://shared-apple-id.github.io/apple-id-pool/)
