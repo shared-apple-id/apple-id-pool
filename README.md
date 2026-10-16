@@ -8,10 +8,11 @@
 
 ---
 
-### 🌐 官方传送门
-* **[官方主站 - 科技岛](https://kjdid.com/)**：获取全网最新海外 ID 资源
-* **[热门账号教程](https://www.tgzh.store/tutorials.html)**：全网海外热门账号指南
-* **[官方电报群](https://t.me/kjdidcom)**：防失联实时同步群
+### 🌐 官方传送门（实时更新）
+* **[苹果ID共享 - 科技岛官方主站](https://kjdid.com/)**：获取全网最新海外 ID 资源与每日在线解锁账号
+* **[美区Apple ID免费共享](https://kjdid.com/)**：实时更新美区、港区、日区 Apple ID 账号密码
+* **[热门账号教程指南](https://www.tgzh.store/tutorials.html)**：全网海外热门账号与小火箭使用指南
+* **[官方电报交流群](https://t.me/kjdidcom)**：防失联实时同步群与账号解封通知
 
 ---
 
@@ -40,7 +41,8 @@
 
 ---
 
-### 📖 关于本站
-本仓库长期为您提供高质量**苹果ID共享**与**小火箭免费下载**服务。如果您正在寻找稳定、安全、可用的**美区 Apple ID** 账号密码，本站的 **Shadowrocket 账号池** 为您提供实时更新支持。涵盖 iOS 美区账号共享、小火箭账号密码、美区苹果商店独占软件下载及小白防锁机教程。
+### 📖 关于本站与友情推荐
+本仓库长期为您提供高质量 **[苹果ID共享](https://kjdid.com/)** 与 **[小火箭免费下载](https://kjdid.com/)** 服务。如果您正在寻找稳定、安全、可用的 **[美区Apple ID](https://kjdid.com/)** 账号密码，本站与官方主站的 **[Shadowrocket账号](https://kjdid.com/)** 池为您提供实时更新支持。涵盖 iOS 美区账号共享、小火箭账号密码、美区苹果商店独占软件下载及小白防锁机教程。
 
-👉 **在线渲染页面（建议收藏）：** [https://shared-apple-id.github.io/apple-id-pool/](https://shared-apple-id.github.io/apple-id-pool/)
+👉 **官方主站入口：** [https://kjdid.com/](https://kjdid.com/)  
+👉 **GitHub 在线渲染页面（镜像）：** [https://shared-apple-id.github.io/apple-id-pool/](https://shared-apple-id.github.io/apple-id-pool/)
