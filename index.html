@@ -402,7 +402,8 @@
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            user-select: all;
+            /* 禁用网页上的直接全文全选复制，强制使用复制按钮以触发带隐藏字符的完整复制 */
+            user-select: none; 
         }
 
         .copy-btn {
@@ -535,67 +536,139 @@
     </div>
 
     <div class="account-grid">
+        <!-- 账号 1 -->
         <div class="account-card">
             <div class="card-header"><span class="region-tag">美区 Apple ID #1 (已购小火箭)</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code id="acc1">lucas.miller.ca26@outlook.com</code><button class="copy-btn" onclick="copyText('acc1', '账号 1')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd1">Rk#9184mL</code><button class="copy-btn" onclick="copyText('pwd1', '密码 1')">复制密码</button></div>
+                <div class="credential-item">
+                    <span>账号</span>
+                    <code id="acc1" data-full="lucas.miller.ca26@outlook.com">lucas.mil*****@outlook.com</code>
+                    <button class="copy-btn" onclick="copyText('acc1', '账号 1')">复制账号</button>
+                </div>
+                <div class="credential-item">
+                    <span>密码</span>
+                    <code id="pwd1" data-full="Rk#9184mL">Rk#****mL</code>
+                    <button class="copy-btn" onclick="copyText('pwd1', '密码 1')">复制密码</button>
+                </div>
             </div>
         </div>
 
+        <!-- 账号 2 -->
         <div class="account-card">
             <div class="card-header"><span class="region-tag">美区苹果账号 #2</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code id="acc2">hannah.davis.ny26@gmail.com</code><button class="copy-btn" onclick="copyText('acc2', '账号 2')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd2">AppStore$8491</code><button class="copy-btn" onclick="copyText('pwd2', '密码 2')">复制密码</button></div>
+                <div class="credential-item">
+                    <span>账号</span>
+                    <code id="acc2" data-full="hannah.davis.ny26@gmail.com">hannah.d*****@gmail.com</code>
+                    <button class="copy-btn" onclick="copyText('acc2', '账号 2')">复制账号</button>
+                </div>
+                <div class="credential-item">
+                    <span>密码</span>
+                    <code id="pwd2" data-full="AppStore$8491">AppSt****8491</code>
+                    <button class="copy-btn" onclick="copyText('pwd2', '密码 2')">复制密码</button>
+                </div>
             </div>
         </div>
 
+        <!-- 账号 3 -->
         <div class="account-card">
             <div class="card-header"><span class="region-tag">美区 Shadowrocket 账号 #3</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code id="acc3">noah.wilson.austin@icloud.com</code><button class="copy-btn" onclick="copyText('acc3', '账号 3')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd3">RocketPass#729</code><button class="copy-btn" onclick="copyText('pwd3', '密码 3')">复制密码</button></div>
+                <div class="credential-item">
+                    <span>账号</span>
+                    <code id="acc3" data-full="noah.wilson.austin@icloud.com">noah.wil*****@icloud.com</code>
+                    <button class="copy-btn" onclick="copyText('acc3', '账号 3')">复制账号</button>
+                </div>
+                <div class="credential-item">
+                    <span>密码</span>
+                    <code id="pwd3" data-full="RocketPass#729">Rocke*****#729</code>
+                    <button class="copy-btn" onclick="copyText('pwd3', '密码 3')">复制密码</button>
+                </div>
             </div>
         </div>
 
+        <!-- 账号 4 -->
         <div class="account-card">
             <div class="card-header"><span class="region-tag">iOS美区 ID 共享 #4</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code id="acc4">isabella.moore.tx@outlook.com</code><button class="copy-btn" onclick="copyText('acc4', '账号 4')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd4">UsAuth*4810</code><button class="copy-btn" onclick="copyText('pwd4', '密码 4')">复制密码</button></div>
+                <div class="credential-item">
+                    <span>账号</span>
+                    <code id="acc4" data-full="isabella.moore.tx@outlook.com">isabella.m*****@outlook.com</code>
+                    <button class="copy-btn" onclick="copyText('acc4', '账号 4')">复制账号</button>
+                </div>
+                <div class="credential-item">
+                    <span>密码</span>
+                    <code id="pwd4" data-full="UsAuth*4810">UsAut*****4810</code>
+                    <button class="copy-btn" onclick="copyText('pwd4', '密码 4')">复制密码</button>
+                </div>
             </div>
         </div>
 
+        <!-- 账号 5 -->
         <div class="account-card">
             <div class="card-header"><span class="region-tag">美区 Apple ID 共享 #5</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code id="acc5">mason.anderson.us@gmail.com</code><button class="copy-btn" onclick="copyText('acc5', '账号 5')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd5">FreeId!3092</code><button class="copy-btn" onclick="copyText('pwd5', '密码 5')">复制密码</button></div>
+                <div class="credential-item">
+                    <span>账号</span>
+                    <code id="acc5" data-full="mason.anderson.us@gmail.com">mason.and*****@gmail.com</code>
+                    <button class="copy-btn" onclick="copyText('acc5', '账号 5')">复制账号</button>
+                </div>
+                <div class="credential-item">
+                    <span>密码</span>
+                    <code id="pwd5" data-full="FreeId!3092">FreeI*****3092</code>
+                    <button class="copy-btn" onclick="copyText('pwd5', '密码 5')">复制密码</button>
+                </div>
             </div>
         </div>
 
+        <!-- 账号 6 -->
         <div class="account-card">
             <div class="card-header"><span class="region-tag">小火箭免费下载账号 #6</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code id="acc6">ava.thomas.sea@fastmail.com</code><button class="copy-btn" onclick="copyText('acc6', '账号 6')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd6">Shadow#2026k</code><button class="copy-btn" onclick="copyText('pwd6', '密码 6')">复制密码</button></div>
+                <div class="credential-item">
+                    <span>账号</span>
+                    <code id="acc6" data-full="ava.thomas.sea@fastmail.com">ava.thom*****@fastmail.com</code>
+                    <button class="copy-btn" onclick="copyText('acc6', '账号 6')">复制账号</button>
+                </div>
+                <div class="credential-item">
+                    <span>密码</span>
+                    <code id="pwd6" data-full="Shadow#2026k">Shado*****2026k</code>
+                    <button class="copy-btn" onclick="copyText('pwd6', '密码 6')">复制密码</button>
+                </div>
             </div>
         </div>
 
+        <!-- 账号 7 -->
         <div class="account-card">
             <div class="card-header"><span class="region-tag">美区苹果商店账号 #7</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code id="acc7">logan.jackson.fl@icloud.com</code><button class="copy-btn" onclick="copyText('acc7', '账号 7')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd7">CaliKey$9103</code><button class="copy-btn" onclick="copyText('pwd7', '密码 7')">复制密码</button></div>
+                <div class="credential-item">
+                    <span>账号</span>
+                    <code id="acc7" data-full="logan.jackson.fl@icloud.com">logan.jac*****@icloud.com</code>
+                    <button class="copy-btn" onclick="copyText('acc7', '账号 7')">复制账号</button>
+                </div>
+                <div class="credential-item">
+                    <span>密码</span>
+                    <code id="pwd7" data-full="CaliKey$9103">CaliK*****9103</code>
+                    <button class="copy-btn" onclick="copyText('pwd7', '密码 7')">复制密码</button>
+                </div>
             </div>
         </div>
 
+        <!-- 账号 8 -->
         <div class="account-card">
             <div class="card-header"><span class="region-tag">海外苹果账号共享 #8</span><span class="status-badge">实时在线</span></div>
             <div class="credential-box">
-                <div class="credential-item"><span>账号</span><code id="acc8">amelia.white.chi@outlook.com</code><button class="copy-btn" onclick="copyText('acc8', '账号 8')">复制账号</button></div>
-                <div class="credential-item"><span>密码</span><code id="pwd8">AppKey#8372</code><button class="copy-btn" onclick="copyText('pwd8', '密码 8')">复制密码</button></div>
+                <div class="credential-item">
+                    <span>账号</span>
+                    <code id="acc8" data-full="amelia.white.chi@outlook.com">amelia.whi*****@outlook.com</code>
+                    <button class="copy-btn" onclick="copyText('acc8', '账号 8')">复制账号</button>
+                </div>
+                <div class="credential-item">
+                    <span>密码</span>
+                    <code id="pwd8" data-full="AppKey#8372">AppKe*****#8372</code>
+                    <button class="copy-btn" onclick="copyText('pwd8', '密码 8')">复制密码</button>
+                </div>
             </div>
         </div>
     </div>
@@ -611,7 +684,10 @@
 
 <script>
     function copyText(elementId, labelName) {
-        const text = document.getElementById(elementId).innerText;
+        const el = document.getElementById(elementId);
+        // 自动从 data-full 属性中获取完整的真实账号/密码
+        const text = el.getAttribute('data-full');
+        
         navigator.clipboard.writeText(text).then(() => {
             showToast(`已成功复制 ${labelName}`);
         }).catch(err => {
