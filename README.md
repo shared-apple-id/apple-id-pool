@@ -2,7 +2,7 @@
 
 > 实时更新美区 Apple ID 账号密码 | 免费 Shadowrocket 账号共享服务中心 - 苹果岛
 
-[![更新时间](https://img.shields.io/badge/最后更新-2026--10--19%2017:30-38bdf8?style=flat-square&logo=apple)](https://shared-apple-id.github.io/apple-id-pool/)
+[![更新时间](https://img.shields.io/badge/最后更新-2026--10--20%2015:30-38bdf8?style=flat-square&logo=apple)](https://shared-apple-id.github.io/apple-id-pool/)
 [![官方主站](https://img.shields.io/badge/官方主站-科技岛-0284c7?style=flat-square&logo=google-chrome)](https://kjdid.com/)
 [![电报群](https://img.shields.io/badge/TG群防失联-科技岛-24A1DE?style=flat-square&logo=telegram)](https://t.me/kjdidcom)
 
@@ -26,18 +26,18 @@
 
 ---
 
-### 🔑 美区 Apple ID 共享账号实时池（更新于 2026-10-19 17:30）
+### 🔑 美区 Apple ID 共享账号实时池（更新于 2026-10-20 15:30）
 
 | 账号类型 | 共享 Apple ID (账号) | 账号密码 | 状态 |
 | :--- | :--- | :--- | :---: |
-| **美区 Apple ID #1 (已购小火箭)** | `owen.carter.us19@outlook.com` | `Rk#4491xy` | 🟢 在线 |
-| **美区苹果账号 #2** | `charlotte.lee.ny88@gmail.com` | `AppStore$2039` | 🟢 在线 |
-| **美区 Shadowrocket 账号 #3** | `caleb.martinez.dfw@icloud.com` | `RocketPass#518` | 🟢 在线 |
-| **iOS美区 ID 共享 #4** | `lily.walker.tx77@outlook.com` | `UsAuth*9302` | 🟢 在线 |
-| **美区 Apple ID 共享 #5** | `henry.lopez.usa@gmail.com` | `FreeId!6741` | 🟢 在线 |
-| **小火箭免费下载账号 #6** | `sophia.garcia.pdx@fastmail.com` | `Shadow#8193k` | 🟢 在线 |
-| **美区苹果商店账号 #7** | `jack.peters.mia@icloud.com` | `CaliKey$4082` | 🟢 在线 |
-| **海外苹果账号共享 #8** | `victoria.hall.chi@outlook.com` | `AppKey#9051` | 🟢 在线 |
+| **美区 Apple ID #1 (已购小火箭)** | `ethan.miller.us26@outlook.com` | `Tk#8831za` | 🟢 在线 |
+| **美区苹果账号 #2** | `ava.davis.ny99@gmail.com` | `AppStore$9210` | 🟢 在线 |
+| **美区 Shadowrocket 账号 #3** | `mason.wilson.dfw@icloud.com` | `RocketPass#742` | 🟢 在线 |
+| **iOS美区 ID 共享 #4** | `chloe.taylor.tx88@outlook.com` | `UsAuth*4109` | 🟢 在线 |
+| **美区 Apple ID 共享 #5** | `lucas.anderson.usa@gmail.com` | `FreeId!3928` | 🟢 在线 |
+| **小火箭免费下载账号 #6** | `mia.thomas.pdx@fastmail.com` | `Shadow#6024m` | 🟢 在线 |
+| **美区苹果商店账号 #7** | `benjamin.white.mia@icloud.com` | `CaliKey$8173` | 🟢 在线 |
+| **海外苹果账号共享 #8** | `amelia.harris.chi@outlook.com` | `AppKey#3842` | 🟢 在线 |
 
 ---
 
