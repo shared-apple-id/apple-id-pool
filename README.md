@@ -2,7 +2,7 @@
 
 > 实时更新美区 Apple ID 账号密码 | 免费 Shadowrocket 账号共享服务中心 - 苹果岛
 
-[![更新时间](https://img.shields.io/badge/最后更新-2026--10--20%2015:30-38bdf8?style=flat-square&logo=apple)](https://shared-apple-id.github.io/apple-id-pool/)
+[![更新时间](https://img.shields.io/badge/最后更新-2026--10--21%2015:30-38bdf8?style=flat-square&logo=apple)](https://shared-apple-id.github.io/apple-id-pool/)
 [![官方主站](https://img.shields.io/badge/官方主站-科技岛-0284c7?style=flat-square&logo=google-chrome)](https://kjdid.com/)
 [![电报群](https://img.shields.io/badge/TG群防失联-科技岛-24A1DE?style=flat-square&logo=telegram)](https://t.me/kjdidcom)
 
@@ -26,23 +26,23 @@
 
 ---
 
-### 🔑 美区 Apple ID 共享账号实时池（更新于 2026-10-20 15:30）
+### 🔑 美区 Apple ID 共享账号实时池（更新于 2026-10-21 15:30）
 
 | 账号类型 | 共享 Apple ID (账号) | 账号密码 | 状态 |
 | :--- | :--- | :--- | :---: |
-| **美区 Apple ID #1 (已购小火箭)** | `ethan.miller.us26@outlook.com` | `Tk#8831za` | 🟢 在线 |
-| **美区苹果账号 #2** | `ava.davis.ny99@gmail.com` | `AppStore$9210` | 🟢 在线 |
-| **美区 Shadowrocket 账号 #3** | `mason.wilson.dfw@icloud.com` | `RocketPass#742` | 🟢 在线 |
-| **iOS美区 ID 共享 #4** | `chloe.taylor.tx88@outlook.com` | `UsAuth*4109` | 🟢 在线 |
-| **美区 Apple ID 共享 #5** | `lucas.anderson.usa@gmail.com` | `FreeId!3928` | 🟢 在线 |
-| **小火箭免费下载账号 #6** | `mia.thomas.pdx@fastmail.com` | `Shadow#6024m` | 🟢 在线 |
-| **美区苹果商店账号 #7** | `benjamin.white.mia@icloud.com` | `CaliKey$8173` | 🟢 在线 |
-| **海外苹果账号共享 #8** | `amelia.harris.chi@outlook.com` | `AppKey#3842` | 🟢 在线 |
+| **美区 Apple ID #1 (已购小火箭)** | `noah.carter.us88@outlook.com` | `Pass#2026Xk` | 🟢 在线 |
+| **美区苹果账号 #2** | `sophia.martinez.ny26@gmail.com` | `AppStore$3918` | 🟢 在线 |
+| **美区 Shadowrocket 账号 #3** | `jackson.brooks.lax@icloud.com` | `Rocket#9102z` | 🟢 在线 |
+| **iOS美区 ID 共享 #4** | `emma.clark.sea@outlook.com` | `UsStore*7731` | 🟢 在线 |
+| **美区 Apple ID 共享 #5** | `liam.bennett.usa@gmail.com` | `FreeId#8820` | 🟢 在线 |
+| **小火箭免费下载账号 #6** | `olivia.morgan.ord@fastmail.com` | `Shadow*2026m` | 🟢 在线 |
+| **美区苹果商店账号 #7** | `eiden.walker.sfo@icloud.com` | `BayArea$5192` | 🟢 在线 |
+| **海外苹果账号共享 #8** | `charlotte.king.aus@outlook.com` | `KeyAuth#6241` | 🟢 在线 |
 
 ---
 
 ### 📖 关于本站与友情推荐
-本仓库长期为您提供高质量 **[苹果ID共享](https://kjdid.com/)** 与 **[小火箭免费下载](https://kjdid.com/)** 服务。如果您正在寻找稳定、安全、可用的 **[美区Apple ID](https://kjdid.com/)** 账号密码，本站与官方主站的 **[Shadowrocket账号](https://kjdid.com/)** 池为您提供实时更新支持。涵盖 iOS 美区账号共享、小火箭账号密码、美区苹果商店独占软件下载及小白防锁机教程。
+本仓库长期为您提供高质量 **[苹果ID共享](https://kjdid.com/)** 与 **[小火箭免费下载](https://kjdid.com/)** 服务。如果您正在寻找稳定、安全、可用的 **[美区Apple ID](https://kjdid.com/)** 账号密码，本站与官方主站的 **[Shadowrocket账号](https://kjdid.com/)** 池为您提供每日定时更新支持。涵盖 iOS 美区账号共享、小火箭账号密码、美区苹果商店独占软件下载及小白防锁机教程。
 
 👉 **官方主站入口：** [https://kjdid.com/](https://kjdid.com/)  
 👉 **GitHub 在线页面（镜像）：** [https://shared-apple-id.github.io/apple-id-pool/](https://shared-apple-id.github.io/apple-id-pool/)
