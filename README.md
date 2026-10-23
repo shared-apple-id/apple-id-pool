@@ -1,48 +1,52 @@
-# 苹果ID共享与小火箭免费下载 - 苹果岛
+# 2026年美区 Apple ID 共享与小火箭下载记录
 
-> 实时更新美区 Apple ID 账号密码 | 免费 Shadowrocket 账号共享服务中心 - 苹果岛
-
-[![更新时间](https://img.shields.io/badge/最后更新-2026--10--21%2015:30-38bdf8?style=flat-square&logo=apple)](https://shared-apple-id.github.io/apple-id-pool/)
-[![官方主站](https://img.shields.io/badge/官方主站-科技岛-0284c7?style=flat-square&logo=google-chrome)](https://kjdid.com/)
-[![电报群](https://img.shields.io/badge/TG群防失联-科技岛-24A1DE?style=flat-square&logo=telegram)](https://t.me/kjdidcom)
+> 记录时间：2026-10-23 18:30  
+> 声明：这些账号是我自己和朋友平时维护测试用的，主要方便大家临时下个小火箭（Shadowrocket）或美区应用。请大家用完及时退出，别乱改密码，方便其他人。
 
 ---
 
-### 🌐 官方传送门（实时更新）
-* **[苹果ID共享 - 科技岛官方主站](https://kjdid.com/)**：获取全网最新海外 ID 资源与每日在线解锁账号
-* **[美区Apple ID免费共享](https://kjdid.com/)**：实时更新美区、港区、日区 Apple ID 账号密码
-* **[热门账号教程指南](https://www.tgzh.store/tutorials.html)**：全网海外热门账号与小火箭使用指南
-* **[官方电报交流群](https://t.me/kjdidcom)**：防失联实时同步群与账号解封通知
+## ⚠️ 用前必看（防止手机被锁）
+
+经常有新手把共享号登到系统 Settings 里去，这样搞**极其危险**！账号一旦被锁或者触发风控，你自己的手机也会被连累锁死。
+
+正确用法只有一种：
+1. 打开 **App Store** 商店（不是手机设置！）。
+2. 点击右上角头像，拉到最底部，退出你自己的账号。
+3. 在 Store 里登录下面的账号密码。
+4. 下载完你要的软件（比如 Shadowrocket），**立刻退出**换回你自己的号。
+
+*千万不要绑你自己的手机号，也别开双重认证。*
 
 ---
 
-### ⚠️ 【苹果ID共享】防锁机安全规范指南 - 苹果岛
+## 🔑 账号列表（更新于 10月23日 18:30）
 
-> **严重警告：绝对禁止在 iPhone 系统的【设置】(iCloud) 中登录共享账号！**
+如果遇到账号被锁或者密码不对，可能是用的人太多被苹果风控了，可以稍后再试，或者去 [科技岛主站](https://kjdid.com/) 看最新的解锁状态。
 
-1. 下载 Shadowrocket（小火箭）等应用时，**务必仅在 App Store 商店内**登录账号密码。
-2. 下载安装完成后，请**立即退出账号**并切回您自己的私人国内 Apple ID。
-3. 请勿开启双重认证或绑定个人手机号，避免造成账号失效或设备被锁。
+* **账号 1 (已购小火箭)**  
+  账号：`shadow_sky892@proton.me`  
+  密码：`Kjdid#9821a`  
+  *备注：如果搜小火箭提示要收费，直接去 App Store 的「已购项目」里找，点击云朵下载就行。*
+
+* **账号 2 (美区通用)**  
+  账号：`tech_island_2026@163.com`  
+  密码：`App$tore9102`
+
+* **账号 3 (已购小火箭)**  
+  账号：`dev.mike.us92@gmail.com`  
+  密码：`Rk#20261023`  
+  *备注：该账号刚解锁，登录如需验证码请重试或看主站提示。*
+
+* **账号 4 (美区 Store)**  
+  账号：`ios_free_store8@outlook.com`  
+  密码：`Pass8891#Us`
 
 ---
 
-### 🔑 美区 Apple ID 共享账号实时池（更新于 2026-10-21 15:30）
+## 💬 常见问题
 
-| 账号类型 | 共享 Apple ID (账号) | 账号密码 | 状态 |
-| :--- | :--- | :--- | :---: |
-| **美区 Apple ID #1 (已购小火箭)** | `noah.carter.us88@outlook.com` | `Pass#2026Xk` | 🟢 在线 |
-| **美区苹果账号 #2** | `sophia.martinez.ny26@gmail.com` | `AppStore$3918` | 🟢 在线 |
-| **美区 Shadowrocket 账号 #3** | `jackson.brooks.lax@icloud.com` | `Rocket#9102z` | 🟢 在线 |
-| **iOS美区 ID 共享 #4** | `emma.clark.sea@outlook.com` | `UsStore*7731` | 🟢 在线 |
-| **美区 Apple ID 共享 #5** | `liam.bennett.usa@gmail.com` | `FreeId#8820` | 🟢 在线 |
-| **小火箭免费下载账号 #6** | `olivia.morgan.ord@fastmail.com` | `Shadow*2026m` | 🟢 在线 |
-| **美区苹果商店账号 #7** | `eiden.walker.sfo@icloud.com` | `BayArea$5192` | 🟢 在线 |
-| **海外苹果账号共享 #8** | `charlotte.king.aus@outlook.com` | `KeyAuth#6241` | 🟢 在线 |
+**Q：为什么登录提示“账号已锁定”？**  
+A：公共账号如果短时间内登录设备太多，或者有人输错密码，苹果就会自动锁定。遇到这种情况不要慌，可以在 [TG 交流群](https://t.me/kjdidcom) 里反馈，或者参考 [账号解封教程指南](https://www.tgzh.store/tutorials.html)。
 
----
-
-### 📖 关于本站与友情推荐
-本仓库长期为您提供高质量 **[苹果ID共享](https://kjdid.com/)** 与 **[小火箭免费下载](https://kjdid.com/)** 服务。如果您正在寻找稳定、安全、可用的 **[美区Apple ID](https://kjdid.com/)** 账号密码，本站与官方主站的 **[Shadowrocket账号](https://kjdid.com/)** 池为您提供每日定时更新支持。涵盖 iOS 美区账号共享、小火箭账号密码、美区苹果商店独占软件下载及小白防锁机教程。
-
-👉 **官方主站入口：** [https://kjdid.com/](https://kjdid.com/)  
-👉 **GitHub 在线页面（镜像）：** [https://shared-apple-id.github.io/apple-id-pool/](https://shared-apple-id.github.io/apple-id-pool/)
+**Q：下载完后更新软件提示输入密码？**  
+A：通过共享账号下载的 App，以后更新必须登录当时下载的那个账号。如果觉得麻烦，建议后续自己注册一个独享的美区 ID。
