@@ -1,4 +1,4 @@
-# 2026美区 Apple ID 共享账号（含小火箭 Shadowrocket 已购）
+# 2026美区 Apple ID 共享账号（含小火箭 Shadowrocket ）每日更新
 
 <!-- lastmod: 2026-11-08T21:00:00+08:00 -->
 <!-- updated_at: 2026-11-08 -->
